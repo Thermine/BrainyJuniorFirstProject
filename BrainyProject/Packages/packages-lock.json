@@ -1,35 +1,5 @@
 {
   "dependencies": {
-    "com.google.external-dependency-manager": {
-      "version": "file:../Assets/com.google.external-dependency-manager-1.2.175.tgz",
-      "depth": 0,
-      "source": "local-tarball",
-      "dependencies": {}
-    },
-    "com.google.firebase.app": {
-      "version": "file:../Assets/com.google.firebase.app-10.5.0.tgz",
-      "depth": 0,
-      "source": "local-tarball",
-      "dependencies": {
-        "com.google.external-dependency-manager": "1.2.175"
-      }
-    },
-    "com.google.firebase.auth": {
-      "version": "file:../Assets/com.google.firebase.auth-10.5.0.tgz",
-      "depth": 0,
-      "source": "local-tarball",
-      "dependencies": {
-        "com.google.firebase.app": "10.5.0"
-      }
-    },
-    "com.google.firebase.database": {
-      "version": "file:../Assets/com.google.firebase.database-10.5.0.tgz",
-      "depth": 0,
-      "source": "local-tarball",
-      "dependencies": {
-        "com.google.firebase.auth": "10.5.0"
-      }
-    },
     "com.unity.burst": {
       "version": "1.6.6",
       "depth": 1,
