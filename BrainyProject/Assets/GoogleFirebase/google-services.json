@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "962842548517",
+    "firebase_url": "https://brainylab-f6423-default-rtdb.firebaseio.com",
+    "project_id": "brainylab-f6423",
+    "storage_bucket": "brainylab-f6423.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962842548517:android:96e1cc5a65dfbec290e2cc",
+        "android_client_info": {
+          "package_name": "com.softpink.VRIntegration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962842548517-sl689qaopcjq482fok22k5utcbboiu2m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhIGOMBSUz9jAyaOuX43vG_05aKGKdo84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962842548517-sl689qaopcjq482fok22k5utcbboiu2m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
