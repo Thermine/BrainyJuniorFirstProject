@@ -8,7 +8,6 @@ public class Zapominanie : MonoBehaviour
     public ObjectSwitcher ObjectSwitcher;
     int amount;
     public GameObject[] btns;
-    public int num;
     public void vvod(string type)
     {
         amount += 1;
@@ -23,7 +22,7 @@ public class Zapominanie : MonoBehaviour
     }
     IEnumerator wait()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.5f);
         for (int i = 0; i < btns.Length; i++)
         {
             btns[i].SetActive(false);

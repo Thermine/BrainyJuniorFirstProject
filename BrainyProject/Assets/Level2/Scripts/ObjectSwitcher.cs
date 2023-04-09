@@ -24,16 +24,9 @@ public class ObjectSwitcher : MonoBehaviour
         Starting();
         imageDisplay.gameObject.SetActive(true);
     }
-    private void OnTriggerEnter(Collider other)
+    public void Starting()
     {
-        if(other.gameObject.tag == "Player" && currentImageIndex == 0)
-        {
-            Starting();
-            imageDisplay.gameObject.SetActive(true);
-        }
-    }
-    void Starting()
-    {
+        imageDisplay.gameObject.SetActive(true);
         // установим первую картинку
         imageDisplay.sprite = images[currentImageIndex];
         AudioSource.clip = audios[currentImageIndex];
