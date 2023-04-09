@@ -14,6 +14,16 @@ public class ObjectSwitcher : MonoBehaviour
     public GameObject panel;
     private int currentImageIndex = 0; // индекс текущей картинки
     bool OneTime;
+    public int[] ShootNumbers;
+    int numberIndex;
+    SphereShooter shooter;
+    public float[] ShootSpeed;
+    private void Start()
+    {
+        shooter = GetComponent<SphereShooter>();
+        Starting();
+        imageDisplay.gameObject.SetActive(true);
+    }
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "Player" && currentImageIndex == 0)
@@ -38,16 +48,18 @@ public class ObjectSwitcher : MonoBehaviour
         {
             // ждем заданное время
             yield return new WaitForSeconds(timeBetweenImages);
-
             // увеличиваем индекс текущей картинки
-            currentImageIndex++;
 
-            // если достигли конца списка, начинаем сначала
-            if (currentImageIndex >= images.Count)
+            if (ShootNumbers[numberIndex] == currentImageIndex && numberIndex < ShootNumbers.Length)
             {
-                currentImageIndex = 0;
+                shooter.ShootTime = ShootSpeed[numberIndex];
+                shooter.PrepareToShoot();
+                print("Shoot!");
+                yield return new WaitForSeconds(ShootSpeed[numberIndex]);
+                numberIndex++;
             }
 
+            currentImageIndex++;
             // устанавливаем новую картинку
             imageDisplay.sprite = images[currentImageIndex];
             AudioSource.clip = audios[currentImageIndex];
