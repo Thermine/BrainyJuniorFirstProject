@@ -1,20 +1,26 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class SphereManager : MonoBehaviour
+namespace djastas
 {
-    [SerializeField] private SphereController[] sphereControllers;
-    [SerializeField] private SphereController sphereController;
+    public class SphereManager : MonoBehaviour
+    {
+        [SerializeField] private SphereController[] sphereControllers;
+        [SerializeField] private SphereController sphereController;
     
 
-    public void SetSphereController(int i)
-    {
-        sphereController = sphereControllers[i];
-    }
+        public void SetSphereController(int i)
+        {
+            sphereController = sphereControllers[i];
+        }
 
-    public void SetNumInSelectSphere(int value)
-    {
-        sphereController.SetNum(value);
+        public void SetNumInSelectSphere(int value)
+        {
+            sphereController.SetNum(value);
+        }
+
+        public void SetNumInSelectSphere(string value)
+        {
+            SetNumInSelectSphere(int.Parse(value));
+        }
     }
 }
