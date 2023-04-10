@@ -39,11 +39,7 @@ public class ObjectSwitcher : MonoBehaviour
     {
         while (true)
         {
-            // ждем заданное время
-            yield return new WaitForSeconds(timeBetweenImages);
-            // увеличиваем индекс текущей картинки
-
-            if (ShootNumbers[numberIndex] == currentImageIndex && numberIndex < ShootNumbers.Length)
+            if (numberIndex <= ShootNumbers.Length && ShootNumbers[numberIndex] == currentImageIndex)
             {
                 shooter.ShootTime = ShootSpeed[numberIndex];
                 shooter.PrepareToShoot();
@@ -51,15 +47,22 @@ public class ObjectSwitcher : MonoBehaviour
                 yield return new WaitForSeconds(ShootSpeed[numberIndex]);
                 numberIndex++;
             }
-
             currentImageIndex++;
             // устанавливаем новую картинку
+            yield return new WaitForSeconds(timeBetweenImages);
+            // увеличиваем индекс текущей картинки
             imageDisplay.sprite = images[currentImageIndex];
             AudioSource.clip = audios[currentImageIndex];
             AudioSource.Play();
             if (currentImageIndex == images.Count - 1)
             {
-
+                if (ShootNumbers[numberIndex] == currentImageIndex)
+                {
+                    shooter.ShootTime = ShootSpeed[numberIndex];
+                    shooter.PrepareToShoot();
+                    print("Shoot!");
+                    yield return new WaitForSeconds(ShootSpeed[numberIndex]);
+                }
                 yield return new WaitForSeconds(timeBetweenImages);
                 imageDisplay.enabled = false;
                 panel.SetActive(true);
