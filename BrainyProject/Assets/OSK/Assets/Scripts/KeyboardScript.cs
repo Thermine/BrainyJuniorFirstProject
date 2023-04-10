@@ -2,12 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
 public class KeyboardScript : MonoBehaviour
 {
 
-    public TMP_InputField TextField;
+    public InputField TextField;
     public GameObject RusLayoutSml, RusLayoutBig, EngLayoutSml, EngLayoutBig, SymbLayout;
 
     public void alphabetFunction(string alphabet)
