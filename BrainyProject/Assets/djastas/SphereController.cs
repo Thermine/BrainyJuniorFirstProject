@@ -6,8 +6,9 @@ using Random = UnityEngine.Random;
 
 public class SphereController : MonoBehaviour
 {
-   [SerializeField] private float weight;
-   [SerializeField] private float num;
+    [SerializeField]private float _weight; //для просмотра
+    
+   [SerializeField] private float num; // для тестов без клавиатуры
 
    [SerializeField] private Transform up;
    [SerializeField] private Transform down;
@@ -19,10 +20,10 @@ public class SphereController : MonoBehaviour
 
    private void Start()
    {
-      weight = Random.Range(15,85);
-      var i = Remap(weight, 15, 85, minScale, maxScale);
+      _weight = Random.Range(15,85);
+      var i = Remap(_weight, 15, 85, minScale, maxScale);
       target.transform.localScale = new Vector3(i,i,i);
-      num = weight - 99;
+      num = _weight - 99;
    }
 
    public void SetNum(int i)
@@ -32,7 +33,7 @@ public class SphereController : MonoBehaviour
 
    private void Update()
    {
-      var i =  weight - num;
+      var i =  _weight - num;
 
       
       var posIdeal = ((up.localPosition.y - down.localPosition.y) / 100) * i;
@@ -78,9 +79,9 @@ public class SphereController : MonoBehaviour
       }
 
 
-      var color = target.gameObject.GetComponent<Renderer>().materials[0].color;
+      var color = target.gameObject.GetComponent<Renderer>().materials[0].GetColor("_MainColor");
       
-      target.gameObject.GetComponent<Renderer>().materials[0].color = Color.Lerp( color,colIdeal, speed);
+      target.gameObject.GetComponent<Renderer>().materials[0].SetColor("_MainColor",Color.Lerp( color,colIdeal, speed));
       target.localPosition = new Vector3(position.x,posY,position.x);
    }
    
