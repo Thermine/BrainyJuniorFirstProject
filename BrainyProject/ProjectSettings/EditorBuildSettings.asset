@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/HurricaneVR/Framework/Integrations/FinalIK/FinalIk_Scene.unity
     guid: 9ad3572b1228a664486d421765503258
   - enabled: 0
-    path: Assets/BNG Framework/Integrations/FinalIK/VRIK.unity
+    path: 
     guid: 138899ff41e647c4b953d4c0804fe3ac
   - enabled: 1
     path: Assets/ProjectScenes/HubScene.unity
@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/ProjectScenes/MainScene.unity
     guid: 77ac0ea477ed346ea9e1a5200937fb99
+  - enabled: 1
+    path: Assets/Lift/LiftTest.unity
+    guid: 1817ca95e11e8d741b44648e4939a4ef
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}

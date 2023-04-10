@@ -2,10 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class LookAtPlayer : MonoBehaviour
 {
-    public Transform look;
-
+    private Transform look;
+    private void Start()
+    {
+        look = GameObject.Find("Camera").transform;
+    }
     private void Update()
     {
        transform.LookAt(look);
