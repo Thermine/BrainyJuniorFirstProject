@@ -1,13 +1,15 @@
+using djastas;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class AsyncLoad : MonoBehaviour
+public class AsyncLoad: MonoBehaviour
 {
 
     AsyncOperation AsyncOperation;
-    public AudioSource Dzin;
+    public AudioManager AudioManager;
+    public string DzinId;
 
     public void AsyncLoading(int SceneIndex)
     {
@@ -24,8 +26,8 @@ public class AsyncLoad : MonoBehaviour
         {
             continue;
         }
-        Dzin.Play();
-        yield return new WaitForSeconds(Dzin.clip.length);
+        AudioManager.PlayAudioById(DzinId);
+        yield return new WaitForSeconds(2);
         AsyncOperation.allowSceneActivation = true;
     }
 }
