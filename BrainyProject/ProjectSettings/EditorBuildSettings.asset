@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Lift/LiftTest.unity
     guid: 1817ca95e11e8d741b44648e4939a4ef
+  - enabled: 1
+    path: Assets/Lift/LiftTest 2.unity
+    guid: b8adab0956821aa4692879be477f4074
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}
