@@ -5,11 +5,13 @@ namespace djastas
     public class Laser : MonoBehaviour
     {
         [SerializeField] private float lengthGizmo;
-
+        [SerializeField] private GameObject particle;
+        [ContextMenu("er")]
         public void Shoot()
         {
+            
             RaycastHit hit;
-
+            Instantiate(particle,gameObject.transform);
             if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity))
             {
                 var i = hit.collider.gameObject.GetComponent<InteractObject>();
