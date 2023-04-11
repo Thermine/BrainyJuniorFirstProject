@@ -11,12 +11,16 @@ public class LiftScript : MonoBehaviour
     public AudioManager AudioManager;
     public AudioSource LevelAmbient;
     public string LiftAmbientID;
-    Animator Lift_Animator;
+    public Animator Lift_Animator;
+    public bool IsStart;
 
     private void Start()
     {
         AsyncLoad = GetComponent<AsyncLoad>();
-        Lift_Animator = GetComponent<Animator>();
+        if (IsStart)
+        {
+            StartCoroutine(StartLift());
+        }
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -24,7 +28,7 @@ public class LiftScript : MonoBehaviour
         {
             LevelAmbient.Stop();
             StartCoroutine(Lift());
-          //  Lift_Animator.SetTrigger("Close");
+            Lift_Animator.SetTrigger("Close");
         }
     }
    
@@ -33,5 +37,13 @@ public class LiftScript : MonoBehaviour
         AudioManager.PlayAudioById(LiftAmbientID);
         yield return new WaitForSeconds(10);
         AsyncLoad.AsyncLoading(SceneIndex);
+    }
+    IEnumerator StartLift()
+    {
+        yield return new WaitForSeconds(2);
+        Lift_Animator.SetTrigger("Open");
+        LevelAmbient.Play();
+        AudioManager.PlayAudioById("OpenDoor");
+
     }
 }
