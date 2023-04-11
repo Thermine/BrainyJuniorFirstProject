@@ -8,7 +8,7 @@ public class SphereController : MonoBehaviour
 {
     [SerializeField]private float _weight; //для просмотра
     
-   [SerializeField] private float num; // для тестов без клавиатуры
+   public float expectedWeight; // предпологаемый/введеный  вес
 
    [SerializeField] private Transform up;
    [SerializeField] private Transform down;
@@ -23,17 +23,17 @@ public class SphereController : MonoBehaviour
       _weight = Random.Range(15,85);
       var i = Remap(_weight, 15, 85, minScale, maxScale);
       target.transform.localScale = new Vector3(i,i,i);
-      num = _weight - 99;
+      expectedWeight = _weight - 99;
    }
 
    public void SetNum(int i)
    {
-      num = i;
+      expectedWeight = i;
    }
 
    private void Update()
    {
-      var i =  _weight - num;
+      var i =  _weight - expectedWeight;
 
       
       var posIdeal = ((up.localPosition.y - down.localPosition.y) / 100) * i;
