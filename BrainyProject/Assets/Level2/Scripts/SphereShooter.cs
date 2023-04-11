@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using HurricaneVR;
 using HurricaneVR.Framework.Core.Player;
-using Unity.PlasticSCM.Editor.WebApi;
-
 public class SphereShooter : MonoBehaviour
 {
     Transform camera; // голова
