@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 3061474773636536084}
   - component: {fileID: 3061474773636536083}
   - component: {fileID: 3061474773636536082}
-  - component: {fileID: 3061474773636536081}
   - component: {fileID: 3061474773636536086}
   m_Layer: 0
   m_Name: Sphere (3)
@@ -30,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3061474773636536079}
   m_LocalRotation: {x: 0.068383746, y: -0.18119825, z: 0.97710943, w: 0.08802245}
-  m_LocalPosition: {x: 42.28, y: 6.6500006, z: 6.988492}
+  m_LocalPosition: {x: -0.844, y: 0.127, z: 0.143}
   m_LocalScale: {x: 1.0173, y: 1.0173, z: 1.0173}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -98,7 +97,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &3061474773636536082
 Rigidbody:
@@ -116,19 +115,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &3061474773636536081
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3061474773636536079}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.6
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3061474773636536086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,7 +195,6 @@ GameObject:
   - component: {fileID: 3061474775314469539}
   - component: {fileID: 3061474775314469538}
   - component: {fileID: 3061474775314469537}
-  - component: {fileID: 3061474775314469536}
   - component: {fileID: 3061474775314469541}
   m_Layer: 0
   m_Name: Sphere (2)
@@ -226,7 +211,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3061474775314469534}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 43.58, y: 6.82, z: 6.988492}
+  m_LocalPosition: {x: 1.058, y: 0, z: 0}
   m_LocalScale: {x: 1.0173, y: 1.0173, z: 1.0173}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -294,7 +279,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &3061474775314469537
 Rigidbody:
@@ -312,19 +297,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &3061474775314469536
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3061474775314469534}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.6
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3061474775314469541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -352,7 +324,6 @@ GameObject:
   - component: {fileID: 3061474775396444436}
   - component: {fileID: 3061474775396444435}
   - component: {fileID: 3061474775396444434}
-  - component: {fileID: 3061474775396444433}
   - component: {fileID: 3061474775396444438}
   m_Layer: 0
   m_Name: Sphere (4)
@@ -369,7 +340,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3061474775396444431}
   m_LocalRotation: {x: -0, y: -0, z: 0.7950307, w: 0.6065692}
-  m_LocalPosition: {x: 43.04, y: 8.069999, z: 6.988492}
+  m_LocalPosition: {x: 0.178, y: 0.835, z: 0}
   m_LocalScale: {x: 1.0173, y: 1.0173, z: 1.0173}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -437,7 +408,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &3061474775396444434
 Rigidbody:
@@ -455,19 +426,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &3061474775396444433
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3061474775396444431}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.6
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3061474775396444438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -511,7 +469,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5478634382291938266}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 43.06, y: 7.1500006, z: 6.988492}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
