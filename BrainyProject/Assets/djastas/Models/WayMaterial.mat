@@ -23,8 +23,10 @@ Material:
   m_Name: WayMaterial
   m_Shader: {fileID: 4800000, guid: 6459b2db96a08ca41b0f9b39dc7ad59e, type: 3}
   m_ValidKeywords:
+  - N_F_CA_ON
   - N_F_DNO_ON
   - N_F_EAL_ON
+  - N_F_GLOT_ON
   - N_F_O_ON
   - N_F_RELGI_ON
   - N_F_R_ON
@@ -106,7 +108,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: f07360462d7b2384a997cf5d8e20abeb, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9bd81dceb16a42a4cb8b86b341ea14a7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskGloss:
@@ -231,14 +233,14 @@ Material:
     - _MaiColPo: 1
     - _Metallic: 0
     - _MixMainTexToOutline: 0
-    - _N_F_CA: 0
+    - _N_F_CA: 1
     - _N_F_CLD: 0
     - _N_F_CO: 0
     - _N_F_DCS: 0
     - _N_F_EAL: 1
     - _N_F_FR: 0
     - _N_F_GLO: 0
-    - _N_F_GLOT: 0
+    - _N_F_GLOT: 1
     - _N_F_HDLS: 0
     - _N_F_HPSS: 0
     - _N_F_MC: 0
@@ -263,7 +265,7 @@ Material:
     - _Opacity: 1
     - _Oper: 0
     - _OutlineExtrudeMethod: 0
-    - _OutlineWidth: 2
+    - _OutlineWidth: 3
     - _OutlineWidthAffectedByViewDistance: 0
     - _OutlineZPostionInCamera: 0
     - _OverallShadowColorPower: 1
@@ -277,7 +279,7 @@ Material:
     - _ReduSha: 0.5
     - _RefMetallic: 0
     - _RefVal: 0
-    - _ReflectionIntensity: 0.85
+    - _ReflectionIntensity: 0
     - _ReflectionRoughtness: 0
     - _RimLigInt: 1
     - _RimLightColorPower: 10
@@ -296,8 +298,8 @@ Material:
     - _SelfShadowRealTimeShadowColorPower: 1
     - _SelfShadowRealtimeShadowIntensity: 1
     - _SelfShadowShadowTAtViewDirection: 0
-    - _SelfShadowThreshold: 0.93
-    - _ShadowColorTexturePower: 10
+    - _SelfShadowThreshold: 1
+    - _ShadowColorTexturePower: 0.1
     - _ShadowHardness: 1
     - _ShadowTColorPower: 1
     - _ShadowTHardness: 1
