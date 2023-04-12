@@ -1931,24 +1931,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioList:
-  - id: Container
-    audio: {fileID: 8300000, guid: 2ccec46bf841f4799bcc71d590fca2d9, type: 3}
-  - id: Could
-    audio: {fileID: 8300000, guid: b021bf691f98e4b1d9daa3e3b79718a9, type: 3}
-  - id: Final
-    audio: {fileID: 8300000, guid: 34d3b6479f70149d486f46819e316c74, type: 3}
-  - id: Greeting
-    audio: {fileID: 8300000, guid: c8ec79a933f4742cc830e3a9b407cefc, type: 3}
-  - id: Laser
+  - id: Fire
     audio: {fileID: 8300000, guid: 19c03d9e4f3df4035a83652be826a2ab, type: 3}
-  - id: Prize
-    audio: {fileID: 8300000, guid: d03950a5b88d24977a675c124dcb9861, type: 3}
-  - id: Shoot
-    audio: {fileID: 8300000, guid: 7cb68b81cce6149299d934e75088004e, type: 3}
-  - id: Sorting
-    audio: {fileID: 8300000, guid: 606bd1bab9fc04a0c84bade536b4a5bd, type: 3}
-  - id: Synth
-    audio: {fileID: 8300000, guid: c9caa1b73d32147de819965b9b5fefe7, type: 3}
+  - id: praise0
+    audio: {fileID: 8300000, guid: 19c03d9e4f3df4035a83652be826a2ab, type: 3}
+  - id: praise1
+    audio: {fileID: 8300000, guid: 19c03d9e4f3df4035a83652be826a2ab, type: 3}
+  - id: praise2
+    audio: {fileID: 8300000, guid: 19c03d9e4f3df4035a83652be826a2ab, type: 3}
 --- !u!4 &1944883875
 Transform:
   m_ObjectHideFlags: 0
@@ -1974,7 +1964,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 19c03d9e4f3df4035a83652be826a2ab, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -15362,6 +15352,18 @@ MonoBehaviour:
   action:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1944883874}
+        m_TargetAssemblyTypeName: djastas.AudioManager, Assembly-CSharp
+        m_MethodName: PlayAudioById
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Fire
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 3061474774119417922}
         m_TargetAssemblyTypeName: djastas.FakeSphere, Assembly-CSharp
         m_MethodName: Explosion
@@ -15372,6 +15374,105 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &3061474774119417924 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3061474775396444431, guid: bcdf1d3e9cf5f904481f05586a387c91,
+    type: 3}
+  m_PrefabInstance: {fileID: 3061474774119417920}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3061474774119417925 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3061474773636536079, guid: bcdf1d3e9cf5f904481f05586a387c91,
+    type: 3}
+  m_PrefabInstance: {fileID: 3061474774119417920}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3061474774119417926 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3061474775314469534, guid: bcdf1d3e9cf5f904481f05586a387c91,
+    type: 3}
+  m_PrefabInstance: {fileID: 3061474774119417920}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3061474774119417927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3061474774119417924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2f6a487f8e679a438e441e30c010b1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1944883874}
+        m_TargetAssemblyTypeName: djastas.AudioManager, Assembly-CSharp
+        m_MethodName: PlayAudioById
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: praise2
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3061474774119417928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3061474774119417925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2f6a487f8e679a438e441e30c010b1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1944883874}
+        m_TargetAssemblyTypeName: djastas.AudioManager, Assembly-CSharp
+        m_MethodName: PlayAudioById
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: praise1
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3061474774119417929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3061474774119417926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2f6a487f8e679a438e441e30c010b1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1944883874}
+        m_TargetAssemblyTypeName: djastas.AudioManager, Assembly-CSharp
+        m_MethodName: PlayAudioById
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: praise0
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &3065659504476093450
