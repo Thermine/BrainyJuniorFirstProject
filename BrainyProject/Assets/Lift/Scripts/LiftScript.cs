@@ -2,6 +2,7 @@ using djastas;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class LiftScript : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class LiftScript : MonoBehaviour
     public string LiftAmbientID;
     public Animator Lift_Animator;
     public bool IsStart;
+
+    [SerializeField] private UnityEvent exitLevelAction;
 
     private void Start()
     {
@@ -30,6 +33,7 @@ public class LiftScript : MonoBehaviour
             StartCoroutine(Lift());
             Lift_Animator.SetTrigger("Close");
             GetComponent<BoxCollider>().enabled = false;
+            exitLevelAction.Invoke();
         }
     }
    
