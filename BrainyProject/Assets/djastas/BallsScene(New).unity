@@ -1263,6 +1263,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sphereControllers:
   - {fileID: 5298998985582370835}
+  sendWeight:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &488198679
 GameObject:
   m_ObjectHideFlags: 0
@@ -3359,7 +3362,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1911550901}
   m_LocalRotation: {x: -0.17983527, y: -0.53829324, z: 0.23059809, w: 0.7903949}
-  m_LocalPosition: {x: -0, y: 0, z: -0}
+  m_LocalPosition: {x: 0.018, y: 0.017, z: 0.038}
   m_LocalScale: {x: 0.3000002, y: 0.30000016, z: 0.30000022}
   m_ConstrainProportionsScale: 1
   m_Children:

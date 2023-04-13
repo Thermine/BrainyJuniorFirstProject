@@ -32,7 +32,6 @@ Material:
   - N_F_R_ON
   - N_F_SCT_ON
   - N_F_SS_ON
-  - N_F_TRANSAFFSHA_ON
   - N_F_TRANS_ON
   m_InvalidKeywords:
   - _CUSTOMLIGHTDIRECTIONFOLLOWOBJECTROTATION_OFF
@@ -263,7 +262,7 @@ Material:
     - _NoisyOutlineIntensity: 0.1
     - _NormalMapIntensity: 1
     - _OcclusionStrength: 1
-    - _Opacity: 0.6
+    - _Opacity: 0.841
     - _Oper: 0
     - _OutlineExtrudeMethod: 0
     - _OutlineWidth: 0.5
@@ -280,8 +279,8 @@ Material:
     - _ReduSha: 0.5
     - _RefMetallic: 0
     - _RefVal: 0
-    - _ReflectionIntensity: 0.85
-    - _ReflectionRoughtness: 0
+    - _ReflectionIntensity: 1
+    - _ReflectionRoughtness: 1
     - _RimLigInt: 1
     - _RimLightColorPower: 10
     - _RimLightInLight: 1
@@ -320,7 +319,7 @@ Material:
     - _TEXMCOLINT: 1
     - _TRANSMODE: 1
     - _TexturePatternStyle: 0
-    - _TransAffSha: 1
+    - _TransAffSha: 0
     - _TransparentThreshold: 0
     - _UseSecondaryCutout: 0
     - _UseTLB: 0
