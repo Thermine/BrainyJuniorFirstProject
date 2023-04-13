@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -6,8 +7,7 @@ using UnityEngine.UI;
 
 public class ObjectSwitcher : MonoBehaviour
 {
-    public List<Sprite> images;
-    public List<AudioClip> audios;// список картинок, которые нужно показывать
+    [SerializeField] public List<VoiceImage> voiceImages = new List<VoiceImage>();
     public Image imageDisplay;
     public AudioSource AudioSource;// компонент Image на сцене, который будет отображать картинки
     public float timeBetweenImages = 2.0f; // время между сменой картинок
@@ -21,16 +21,13 @@ public class ObjectSwitcher : MonoBehaviour
     private void Start()
     {
         shooter = GetComponent<SphereShooter>();
-        Starting();
-        imageDisplay.gameObject.SetActive(true);
+
     }
     public void Starting()
     {
         imageDisplay.gameObject.SetActive(true);
         // установим первую картинку
-        imageDisplay.sprite = images[currentImageIndex];
-        AudioSource.clip = audios[currentImageIndex];
-        AudioSource.Play();
+        ChangePlayAudioImage();
         // запустим корутину, которая будет менять картинки с заданным промежутком времени
         StartCoroutine(ChangeImage());
     }
@@ -51,10 +48,8 @@ public class ObjectSwitcher : MonoBehaviour
             // устанавливаем новую картинку
             yield return new WaitForSeconds(timeBetweenImages);
             // увеличиваем индекс текущей картинки
-            imageDisplay.sprite = images[currentImageIndex];
-            AudioSource.clip = audios[currentImageIndex];
-            AudioSource.Play();
-            if (currentImageIndex == images.Count - 1)
+            ChangePlayAudioImage();
+            if (currentImageIndex == voiceImages.Count - 1)
             {
                 if (ShootNumbers[numberIndex] == currentImageIndex)
                 {
@@ -71,4 +66,17 @@ public class ObjectSwitcher : MonoBehaviour
 
         }
     }
+
+    public void ChangePlayAudioImage()
+    {
+        imageDisplay.sprite = voiceImages[currentImageIndex].image;
+        AudioSource.clip = voiceImages[currentImageIndex].Audio;
+        AudioSource.Play();
+    }
+}
+[Serializable]
+public class VoiceImage
+{
+    public Sprite image;
+    public AudioClip Audio;
 }

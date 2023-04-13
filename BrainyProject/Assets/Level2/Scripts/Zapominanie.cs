@@ -1,27 +1,34 @@
+using Pixelcrew;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Zapominanie : MonoBehaviour
 {
-    public string FullVvod;
+    public string Player_Combination;
     public ObjectSwitcher ObjectSwitcher;
-    int amount;
+    public int amount;
     public GameObject[] btns;
+    SaveDataInFileComponent SaveDataInFileComponent;
+    private void Start()
+    {
+        SaveDataInFileComponent = GameObject.FindWithTag("DataSaver").GetComponent<SaveDataInFileComponent>();
+    }
     public void vvod(string type)
     {
         amount += 1;
-        if (amount <= ObjectSwitcher.images.Count)
+        if (amount <= ObjectSwitcher.voiceImages.Count)
         {
-            FullVvod += " " + type;
+            Player_Combination += " " + type;
         }
-        if (amount == ObjectSwitcher.images.Count)
+        if (amount == ObjectSwitcher.voiceImages.Count)
         {
             StartCoroutine(wait());
         }
     }
     IEnumerator wait()
     {
+        SaveDataInFileComponent.WriteCsv(Player_Combination);
         yield return new WaitForSeconds(0.5f);
         for (int i = 0; i < btns.Length; i++)
         {
