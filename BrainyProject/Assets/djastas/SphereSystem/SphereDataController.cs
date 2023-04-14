@@ -11,21 +11,31 @@ namespace djastas
    public class SphereDataController : MonoBehaviour
    {
       [SerializeField] private SphereController[] sphereControllers;
+      [SerializeField] private FakeSphere[] fakeSphereControllers;
+      
       [SerializeField] private StringAction sendWeight; // unityEvent который отправляет в SaveDataInFileComponent вес шаров
       
 
       private List<string> GetData()
       {
          List<string> data = new List<string>();
+         
          foreach (var sphereController in sphereControllers)
          {
             var i = (sphereController.weight - sphereController.expectedWeight).ToString(CultureInfo.InvariantCulture);
-            
             data = data.Append(i).ToList();
+         }
+
+         foreach (var fakeSphere in fakeSphereControllers)
+         {
+            var i = fakeSphere.stopwatchComponent.time;
+            data = data.Append(i.ToString(CultureInfo.InvariantCulture)).ToList();
          }
 
          return data;
       }
+      
+      
       [ContextMenu("Test")]
       public void SendData()
       {
@@ -34,19 +44,16 @@ namespace djastas
          {
             sendWeight.Invoke(i);
          }
+         
 
       }
       
       
       
-      
-[Serializable]
+      [Serializable]
       class StringAction : UnityEvent<string>
       {
          
       }
-
-      
-      
    }
 }
