@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3061474773636536083}
   - component: {fileID: 3061474773636536082}
   - component: {fileID: 3061474773636536086}
+  - component: {fileID: 476316397093755378}
   m_Layer: 0
   m_Name: Sphere (3)
   m_TagString: Ball
@@ -129,6 +130,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   force: 1000
   lengthGizmo: 1.75
+--- !u!114 &476316397093755378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3061474773636536079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2f6a487f8e679a438e441e30c010b1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3061474773890639745}
+        m_TargetAssemblyTypeName: djastas.FakeSphere, Assembly-CSharp
+        m_MethodName: MicroSphereExplosion
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &3061474773890639871
 GameObject:
   m_ObjectHideFlags: 0
@@ -139,6 +167,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3061474773890639744}
   - component: {fileID: 3061474773890639745}
+  - component: {fileID: 315851596794196638}
   m_Layer: 0
   m_Name: FakeSphere
   m_TagString: Untagged
@@ -182,6 +211,19 @@ MonoBehaviour:
   - {fileID: 3061474773636536079}
   - {fileID: 3061474775396444431}
   target: {fileID: 5478634382291938266}
+--- !u!114 &315851596794196638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3061474773890639871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e09738ce533319418b4f829263160ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stopwatchIsStart: 0
 --- !u!1 &3061474775314469534
 GameObject:
   m_ObjectHideFlags: 0
@@ -196,6 +238,7 @@ GameObject:
   - component: {fileID: 3061474775314469538}
   - component: {fileID: 3061474775314469537}
   - component: {fileID: 3061474775314469541}
+  - component: {fileID: 8404096429783624954}
   m_Layer: 0
   m_Name: Sphere (2)
   m_TagString: Ball
@@ -311,6 +354,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   force: 1000
   lengthGizmo: 1.75
+--- !u!114 &8404096429783624954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3061474775314469534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2f6a487f8e679a438e441e30c010b1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3061474773890639745}
+        m_TargetAssemblyTypeName: djastas.FakeSphere, Assembly-CSharp
+        m_MethodName: MicroSphereExplosion
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &3061474775396444431
 GameObject:
   m_ObjectHideFlags: 0
@@ -325,6 +395,7 @@ GameObject:
   - component: {fileID: 3061474775396444435}
   - component: {fileID: 3061474775396444434}
   - component: {fileID: 3061474775396444438}
+  - component: {fileID: 3450261718510970298}
   m_Layer: 0
   m_Name: Sphere (4)
   m_TagString: Ball
@@ -440,6 +511,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   force: 1000
   lengthGizmo: 1.75
+--- !u!114 &3450261718510970298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3061474775396444431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2f6a487f8e679a438e441e30c010b1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3061474773890639745}
+        m_TargetAssemblyTypeName: djastas.FakeSphere, Assembly-CSharp
+        m_MethodName: MicroSphereExplosion
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5478634382291938266
 GameObject:
   m_ObjectHideFlags: 0
