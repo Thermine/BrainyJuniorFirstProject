@@ -362,6 +362,21 @@ PrefabInstance:
       propertyPath: LevelAmbient
       value: 
       objectReference: {fileID: 1351589653}
+    - target: {fileID: 8593526761048431693, guid: b9c06a51b52c9984f92818ba0ab40790,
+        type: 3}
+      propertyPath: exitLevelAction.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8593526761048431693, guid: b9c06a51b52c9984f92818ba0ab40790,
+        type: 3}
+      propertyPath: exitLevelAction.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8593526761048431693, guid: b9c06a51b52c9984f92818ba0ab40790,
+        type: 3}
+      propertyPath: exitLevelAction.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8593526761048431688, guid: b9c06a51b52c9984f92818ba0ab40790, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b9c06a51b52c9984f92818ba0ab40790, type: 3}
