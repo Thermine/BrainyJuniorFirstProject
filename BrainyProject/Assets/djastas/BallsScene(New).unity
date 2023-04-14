@@ -393,7 +393,8 @@ PrefabInstance:
       propertyPath: LevelAmbient
       value: 
       objectReference: {fileID: 1351589653}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8593526761048431688, guid: b9c06a51b52c9984f92818ba0ab40790, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b9c06a51b52c9984f92818ba0ab40790, type: 3}
 --- !u!4 &181877134 stripped
 Transform:
@@ -2802,6 +2803,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1570373678200353204, guid: c932008a72802430d8d212e9ebeddba5,
+        type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3455572598762633187, guid: c932008a72802430d8d212e9ebeddba5,
         type: 3}
       propertyPath: m_RootOrder
