@@ -27,7 +27,7 @@ public class LiftScript : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "Player")
+        if(other.gameObject.tag == "Player" && !IsStart)
         {
             LevelAmbient.Stop();
             StartCoroutine(Lift());
@@ -43,6 +43,7 @@ public class LiftScript : MonoBehaviour
         yield return new WaitForSeconds(10);
         AsyncLoad.AsyncLoading(SceneIndex);
     }
+    [ContextMenu("Stest")]
     IEnumerator StartLift()
     {
         yield return new WaitForSeconds(2);
