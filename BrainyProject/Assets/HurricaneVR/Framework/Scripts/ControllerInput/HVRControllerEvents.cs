@@ -1,10 +1,13 @@
-﻿using UnityEngine;
+﻿
+using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 namespace HurricaneVR.Framework.ControllerInput
 {
     public class HVRControllerEvents : MonoBehaviour
     {
+        public Text console;
         public static HVRControllerEvents Instance { get; private set; }
 
         public UnityEvent LeftGripActivated = new UnityEvent();
@@ -111,74 +114,74 @@ namespace HurricaneVR.Framework.ControllerInput
             }
 
             //testing...
-            //LeftGripActivated.AddListener(() => { Debug.Log("LeftGripActivated"); });
-            //LeftGripDeactivated.AddListener(() => { Debug.Log("LeftGripDeactivated"); });
-            //RightGripActivated.AddListener(() => { Debug.Log("RightGripActivated"); });
-            //RightGripDeactivated.AddListener(() => { Debug.Log("RightGripDeactivated"); });
-            //LeftTriggerActivated.AddListener(() => { Debug.Log("LeftTriggerActivated"); });
-            //LeftTriggerDeactivated.AddListener(() => { Debug.Log("LeftTriggerDeactivated"); });
-            //RightTriggerActivated.AddListener(() => { Debug.Log("RightTriggerActivated"); });
-            //RightTriggerDeactivated.AddListener(() => { Debug.Log("RightTriggerDeactivated"); });
-            //LeftPrimaryActivated.AddListener(() => { Debug.Log("LeftPrimaryActivated"); });
-            //LeftPrimaryDeactivated.AddListener(() => { Debug.Log("LeftPrimaryDeactivated"); });
-            //RightPrimaryActivated.AddListener(() => { Debug.Log("RightPrimaryActivated"); });
-            //RightPrimaryDeactivated.AddListener(() => { Debug.Log("RightPrimaryDeactivated"); });
-            //LeftSecondaryActivated.AddListener(() => { Debug.Log("LeftSecondaryActivated"); });
-            //LeftSecondaryDeactivated.AddListener(() => { Debug.Log("LeftSecondaryDeactivated"); });
-            //RightSecondaryActivated.AddListener(() => { Debug.Log("RightSecondaryActivated"); });
-            //RightSecondaryDeactivated.AddListener(() => { Debug.Log("RightSecondaryDeactivated"); });
-            //LeftMenuActivated.AddListener(() => { Debug.Log("LeftMenuActivated"); });
-            //LeftMenuDeactivated.AddListener(() => { Debug.Log("LeftMenuDeactivated"); });
-            //RightMenuActivated.AddListener(() => { Debug.Log("RightMenuActivated"); });
-            //RightMenuDeactivated.AddListener(() => { Debug.Log("RightMenuDeactivated"); });
-            //LeftPrimaryTouchActivated.AddListener(() => { Debug.Log("LeftPrimaryTouchActivated"); });
-            //LeftPrimaryTouchDeactivated.AddListener(() => { Debug.Log("LeftPrimaryTouchDeactivated"); });
-            //RightPrimaryTouchActivated.AddListener(() => { Debug.Log("RightPrimaryTouchActivated"); });
-            //RightPrimaryTouchDeactivated.AddListener(() => { Debug.Log("RightPrimaryTouchDeactivated"); });
-            //LeftSecondaryTouchActivated.AddListener(() => { Debug.Log("LeftSecondaryTouchActivated"); });
-            //LeftSecondaryTouchDeactivated.AddListener(() => { Debug.Log("LeftSecondaryTouchDeactivated"); });
-            //RightSecondaryTouchActivated.AddListener(() => { Debug.Log("RightSecondaryTouchActivated"); });
-            //RightSecondaryTouchDeactivated.AddListener(() => { Debug.Log("RightSecondaryTouchDeactivated"); });
-            //LeftJoystickActivated.AddListener(() => { Debug.Log("LeftJoystickActivated"); });
-            //LeftJoystickDeactivated.AddListener(() => { Debug.Log("LeftJoystickDeactivated"); });
-            //RightJoystickActivated.AddListener(() => { Debug.Log("RightJoystickActivated"); });
-            //RightJoystickDeactivated.AddListener(() => { Debug.Log("RightJoystickDeactivated"); });
-            //LeftTrackpadActivated.AddListener(() => { Debug.Log("LeftTrackpadActivated"); });
-            //LeftTrackpadDeactivated.AddListener(() => { Debug.Log("LeftTrackpadDeactivated"); });
-            //RightTrackpadActivated.AddListener(() => { Debug.Log("RightTrackpadActivated"); });
-            //RightTrackpadDeactivated.AddListener(() => { Debug.Log("RightTrackpadDeactivated"); });
-            //LeftJoystickTouchActivated.AddListener(() => { Debug.Log("LeftJoystickTouchActivated"); });
-            //LeftJoystickTouchDeactivated.AddListener(() => { Debug.Log("LeftJoystickTouchDeactivated"); });
-            //RightJoystickTouchActivated.AddListener(() => { Debug.Log("RightJoystickTouchActivated"); });
-            //RightJoystickTouchDeactivated.AddListener(() => { Debug.Log("RightJoystickTouchDeactivated"); });
-            //LeftTrackPadTouchActivated.AddListener(() => { Debug.Log("LeftTrackPadTouchActivated"); });
-            //LeftTrackPadTouchDeactivated.AddListener(() => { Debug.Log("LeftTrackPadTouchDeactivated"); });
-            //RightTrackPadTouchActivated.AddListener(() => { Debug.Log("RightTrackPadTouchActivated"); });
-            //RightTrackPadTouchDeactivated.AddListener(() => { Debug.Log("RightTrackPadTouchDeactivated"); });
-            //LeftTriggerTouchActivated.AddListener(() => { Debug.Log("LeftTriggerTouchActivated"); });
-            //LeftTriggerTouchDeactivated.AddListener(() => { Debug.Log("LeftTriggerTouchDeactivated"); });
-            //RightTriggerTouchActivated.AddListener(() => { Debug.Log("RightTriggerTouchActivated"); });
-            //RightTriggerTouchDeactivated.AddListener(() => { Debug.Log("RightTriggerTouchDeactivated"); });
-            //LeftThumbTouchActivated.AddListener(() => { Debug.Log("LeftThumbTouchActivated"); });
-            //LeftThumbTouchDeactivated.AddListener(() => { Debug.Log("LeftThumbTouchDeactivated"); });
-            //RightThumbTouchActivated.AddListener(() => { Debug.Log("RightThumbTouchActivated"); });
-            //RightThumbTouchDeactivated.AddListener(() => { Debug.Log("RightThumbTouchDeactivated"); });
-            //LeftTrackPadUpActivated.AddListener(() => { Debug.Log("LeftTrackPadUpActivated"); });
-            //LeftTrackPadUpDeactivated.AddListener(() => { Debug.Log("LeftTrackPadUpDeactivated"); });
-            //RightTrackPadUpActivated.AddListener(() => { Debug.Log("RightTrackPadUpActivated"); });
-            //RightTrackPadUpDeactivated.AddListener(() => { Debug.Log("RightTrackPadUpDeactivated"); });
-            //LeftTrackPadLeftActivated.AddListener(() => { Debug.Log("LeftTrackPadLeftActivated"); });
-            //LeftTrackPadLeftDeactivated.AddListener(() => { Debug.Log("LeftTrackPadLeftDeactivated"); });
-            //RightTrackPadLeftActivated.AddListener(() => { Debug.Log("RightTrackPadLeftActivated"); });
-            //RightTrackPadLeftDeactivated.AddListener(() => { Debug.Log("RightTrackPadLeftDeactivated"); });
-            //LeftTrackPadRightActivated.AddListener(() => { Debug.Log("LeftTrackPadRightActivated"); });
-            //LeftTrackPadRightDeactivated.AddListener(() => { Debug.Log("LeftTrackPadRightDeactivated"); });
-            //RightTrackPadRightActivated.AddListener(() => { Debug.Log("RightTrackPadRightActivated"); });
-            //RightTrackPadRightDeactivated.AddListener(() => { Debug.Log("RightTrackPadRightDeactivated"); });
-            //LeftTrackPadDownActivated.AddListener(() => { Debug.Log("LeftTrackPadDownActivated"); });
-            //LeftTrackPadDownDeactivated.AddListener(() => { Debug.Log("LeftTrackPadDownDeactivated"); });
-            //RightTrackPadDownActivated.AddListener(() => { Debug.Log("RightTrackPadDownActivated"); });
-            //RightTrackPadDownDeactivated.AddListener(() => { Debug.Log("RightTrackPadDownDeactivated"); });
+            LeftGripActivated.AddListener(() => { SendDebug("LeftGripActivated"); });
+            LeftGripDeactivated.AddListener(() => { SendDebug("LeftGripDeactivated"); });
+            RightGripActivated.AddListener(() => { SendDebug("RightGripActivated"); });
+            RightGripDeactivated.AddListener(() => { SendDebug("RightGripDeactivated"); });
+            LeftTriggerActivated.AddListener(() => { SendDebug("LeftTriggerActivated"); });
+            LeftTriggerDeactivated.AddListener(() => { SendDebug("LeftTriggerDeactivated"); });
+            RightTriggerActivated.AddListener(() => { SendDebug("RightTriggerActivated"); });
+            RightTriggerDeactivated.AddListener(() => { SendDebug("RightTriggerDeactivated"); });
+            LeftPrimaryActivated.AddListener(() => { SendDebug("LeftPrimaryActivated"); });
+            LeftPrimaryDeactivated.AddListener(() => { SendDebug("LeftPrimaryDeactivated"); });
+            RightPrimaryActivated.AddListener(() => { SendDebug("RightPrimaryActivated"); });
+            RightPrimaryDeactivated.AddListener(() => { SendDebug("RightPrimaryDeactivated"); });
+            LeftSecondaryActivated.AddListener(() => { SendDebug("LeftSecondaryActivated"); });
+            LeftSecondaryDeactivated.AddListener(() => { SendDebug("LeftSecondaryDeactivated"); });
+            RightSecondaryActivated.AddListener(() => { SendDebug("RightSecondaryActivated"); });
+            RightSecondaryDeactivated.AddListener(() => { SendDebug("RightSecondaryDeactivated"); });
+            LeftMenuActivated.AddListener(() => { SendDebug("LeftMenuActivated"); });
+            LeftMenuDeactivated.AddListener(() => { SendDebug("LeftMenuDeactivated"); });
+            RightMenuActivated.AddListener(() => { SendDebug("RightMenuActivated"); });
+            RightMenuDeactivated.AddListener(() => { SendDebug("RightMenuDeactivated"); });
+            LeftPrimaryTouchActivated.AddListener(() => { SendDebug("LeftPrimaryTouchActivated"); });
+            LeftPrimaryTouchDeactivated.AddListener(() => { SendDebug("LeftPrimaryTouchDeactivated"); });
+            RightPrimaryTouchActivated.AddListener(() => { SendDebug("RightPrimaryTouchActivated"); });
+            RightPrimaryTouchDeactivated.AddListener(() => { SendDebug("RightPrimaryTouchDeactivated"); });
+            LeftSecondaryTouchActivated.AddListener(() => { SendDebug("LeftSecondaryTouchActivated"); });
+            LeftSecondaryTouchDeactivated.AddListener(() => { SendDebug("LeftSecondaryTouchDeactivated"); });
+            RightSecondaryTouchActivated.AddListener(() => { SendDebug("RightSecondaryTouchActivated"); });
+            RightSecondaryTouchDeactivated.AddListener(() => { SendDebug("RightSecondaryTouchDeactivated"); });
+            LeftJoystickActivated.AddListener(() => { SendDebug("LeftJoystickActivated"); });
+            LeftJoystickDeactivated.AddListener(() => { SendDebug("LeftJoystickDeactivated"); });
+            RightJoystickActivated.AddListener(() => { SendDebug("RightJoystickActivated"); });
+            RightJoystickDeactivated.AddListener(() => { SendDebug("RightJoystickDeactivated"); });
+            LeftTrackpadActivated.AddListener(() => { SendDebug("LeftTrackpadActivated"); });
+            LeftTrackpadDeactivated.AddListener(() => { SendDebug("LeftTrackpadDeactivated"); });
+            RightTrackpadActivated.AddListener(() => { SendDebug("RightTrackpadActivated"); });
+            RightTrackpadDeactivated.AddListener(() => { SendDebug("RightTrackpadDeactivated"); });
+            LeftJoystickTouchActivated.AddListener(() => { SendDebug("LeftJoystickTouchActivated"); });
+            LeftJoystickTouchDeactivated.AddListener(() => { SendDebug("LeftJoystickTouchDeactivated"); });
+            RightJoystickTouchActivated.AddListener(() => { SendDebug("RightJoystickTouchActivated"); });
+            RightJoystickTouchDeactivated.AddListener(() => { SendDebug("RightJoystickTouchDeactivated"); });
+            LeftTrackPadTouchActivated.AddListener(() => { SendDebug("LeftTrackPadTouchActivated"); });
+            LeftTrackPadTouchDeactivated.AddListener(() => { SendDebug("LeftTrackPadTouchDeactivated"); });
+            RightTrackPadTouchActivated.AddListener(() => { SendDebug("RightTrackPadTouchActivated"); });
+            RightTrackPadTouchDeactivated.AddListener(() => { SendDebug("RightTrackPadTouchDeactivated"); });
+            LeftTriggerTouchActivated.AddListener(() => { SendDebug("LeftTriggerTouchActivated"); });
+            LeftTriggerTouchDeactivated.AddListener(() => { SendDebug("LeftTriggerTouchDeactivated"); });
+            RightTriggerTouchActivated.AddListener(() => { SendDebug("RightTriggerTouchActivated"); });
+            RightTriggerTouchDeactivated.AddListener(() => { SendDebug("RightTriggerTouchDeactivated"); });
+            LeftThumbTouchActivated.AddListener(() => { SendDebug("LeftThumbTouchActivated"); });
+            LeftThumbTouchDeactivated.AddListener(() => { SendDebug("LeftThumbTouchDeactivated"); });
+            RightThumbTouchActivated.AddListener(() => { SendDebug("RightThumbTouchActivated"); });
+            RightThumbTouchDeactivated.AddListener(() => { SendDebug("RightThumbTouchDeactivated"); });
+            LeftTrackPadUpActivated.AddListener(() => { SendDebug("LeftTrackPadUpActivated"); });
+            LeftTrackPadUpDeactivated.AddListener(() => { SendDebug("LeftTrackPadUpDeactivated"); });
+            RightTrackPadUpActivated.AddListener(() => { SendDebug("RightTrackPadUpActivated"); });
+            RightTrackPadUpDeactivated.AddListener(() => { SendDebug("RightTrackPadUpDeactivated"); });
+            LeftTrackPadLeftActivated.AddListener(() => { SendDebug("LeftTrackPadLeftActivated"); });
+            LeftTrackPadLeftDeactivated.AddListener(() => { SendDebug("LeftTrackPadLeftDeactivated"); });
+            RightTrackPadLeftActivated.AddListener(() => { SendDebug("RightTrackPadLeftActivated"); });
+            RightTrackPadLeftDeactivated.AddListener(() => { SendDebug("RightTrackPadLeftDeactivated"); });
+            LeftTrackPadRightActivated.AddListener(() => { SendDebug("LeftTrackPadRightActivated"); });
+            LeftTrackPadRightDeactivated.AddListener(() => { SendDebug("LeftTrackPadRightDeactivated"); });
+            RightTrackPadRightActivated.AddListener(() => { SendDebug("RightTrackPadRightActivated"); });
+            RightTrackPadRightDeactivated.AddListener(() => { SendDebug("RightTrackPadRightDeactivated"); });
+            LeftTrackPadDownActivated.AddListener(() => { SendDebug("LeftTrackPadDownActivated"); });
+            LeftTrackPadDownDeactivated.AddListener(() => { SendDebug("LeftTrackPadDownDeactivated"); });
+            RightTrackPadDownActivated.AddListener(() => { SendDebug("RightTrackPadDownActivated"); });
+            RightTrackPadDownDeactivated.AddListener(() => { SendDebug("RightTrackPadDownDeactivated"); });
 
         }
 
@@ -186,6 +189,11 @@ namespace HurricaneVR.Framework.ControllerInput
         {
             _globalInputs = HVRGlobalInputs.Instance;
             _hasInputs = _globalInputs;
+        }
+
+        private void SendDebug(string i)
+        {
+            console.text = i;
         }
 
 
