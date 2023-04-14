@@ -1,3 +1,4 @@
+using HurricaneVR.Framework.Core.Player;
 using UnityEngine;
 
 namespace djastas
@@ -6,6 +7,14 @@ namespace djastas
     {
         [SerializeField] private float lengthGizmo;
         [SerializeField] private GameObject particle;
+        [SerializeField] private HVRPlayerController pc;
+        private void Update()
+        {
+            if (pc.RightHand.Inputs.IsRightTriggerHoldActive)
+            {
+                Shoot();
+            }
+        }
         [ContextMenu("er")]
         public void Shoot()
         {
