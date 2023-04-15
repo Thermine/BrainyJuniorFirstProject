@@ -1060,8 +1060,8 @@ Transform:
   m_GameObject: {fileID: 3415194425395678295}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 3415194425717404074}
   - {fileID: 8024765021290544336}
@@ -1121,12 +1121,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42316388c64086e428ca2f110be43c27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voiceImages: []
+  FigureIndexess: 
+  voiceImages:
+  - image: {fileID: 21300000, guid: 49d2ee2856bb1484a9994c10af583949, type: 3}
+    Audio: {fileID: 8300000, guid: b26e36c40a92ebe48a6d9d3093904dff, type: 3}
+  - image: {fileID: 21300000, guid: 092b6a3bb13db74419236ad238b2d9ef, type: 3}
+    Audio: {fileID: 8300000, guid: 4e9625e7f28e9004da0d73054a832397, type: 3}
+  - image: {fileID: 21300000, guid: 9eb883a21ae157443ad5545b7ac3f199, type: 3}
+    Audio: {fileID: 8300000, guid: 4081f0993e702c6408217742dbe7d2e6, type: 3}
+  - image: {fileID: 21300000, guid: 8bdabdf5d8e34094aa269927e7d7d90c, type: 3}
+    Audio: {fileID: 8300000, guid: 4e9625e7f28e9004da0d73054a832397, type: 3}
   imageDisplay: {fileID: 3415194424786169346}
-  AudioSource: {fileID: 3415194425395678284}
   timeBetweenImages: 1
-  panel: {fileID: 3415194425091058614}
-  ShootNumbers: 0000000000000000
+  PlayerCombPanel: {fileID: 3415194425091058614}
+  ShootNumbers: ffffffffffffffff
   ShootSpeed:
   - 1
   - 1

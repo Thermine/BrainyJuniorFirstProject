@@ -17,11 +17,11 @@ public class Zapominanie : MonoBehaviour
     public void vvod(string type)
     {
         amount += 1;
-        if (amount <= ObjectSwitcher.voiceImages.Count)
+        if (amount <= ObjectSwitcher.FigureIndexess.Count)
         {
             Player_Combination += " " + type;
         }
-        if (amount == ObjectSwitcher.voiceImages.Count)
+        if (amount == ObjectSwitcher.FigureIndexess.Count)
         {
             StartCoroutine(wait());
         }
