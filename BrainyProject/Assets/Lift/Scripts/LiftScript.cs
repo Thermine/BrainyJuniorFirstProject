@@ -46,7 +46,7 @@ public class LiftScript : MonoBehaviour
     [ContextMenu("Stest")]
     IEnumerator StartLift()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(0.5f);
         Lift_Animator.SetTrigger("Open");
         LevelAmbient.Play();
         AudioManager.PlayAudioById("OpenDoor");
