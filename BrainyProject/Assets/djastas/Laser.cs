@@ -24,7 +24,14 @@ namespace djastas
             if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity))
             {
                 var i = hit.collider.gameObject.GetComponent<InteractObject>();
-                i?.Interact();
+                if (i!=null)
+                {
+                    i.Interact();
+                }else
+                {
+                    Debug.Log("object not interactable");
+                }
+
                 Debug.Log("Did Hit");
             }
             else
