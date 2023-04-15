@@ -8,7 +8,7 @@ public class EnterPassword : MonoBehaviour
     public string RightCombination; // правильная комбинация чисел
     public string PlayerCombination; // комбинация игрока
     public TMP_InputField InputField;
-
+    public Animator LiftAnimator;
 
     public void EnterDigit(int digit) // ввод числа из UI
     {
@@ -22,7 +22,16 @@ public class EnterPassword : MonoBehaviour
             }
         }
     }
-    IEnumerator Check()
+    [ContextMenu("EnterDigit")]
+    public void digitEditor()
+    {
+        InputField.text = PlayerCombination;
+        if (PlayerCombination.Length == RightCombination.Length)
+        {
+            StartCoroutine(Check());
+        }
+    }
+    public IEnumerator Check()
     {
         if (PlayerCombination == RightCombination)
         {
@@ -33,7 +42,7 @@ public class EnterPassword : MonoBehaviour
         }
         else
         {
-            InputField.text = "Неправильная комбинация!";
+            InputField.text = "Неправильный пароль!";
             yield return new WaitForSeconds(1);
             InputField.text = "";
             PlayerCombination = "";
@@ -41,6 +50,8 @@ public class EnterPassword : MonoBehaviour
     }
     void RightComb()
     {
-        print("Представили что лифт открываетс яи ты в него заходишь да...");
+        LiftAnimator.SetTrigger("Open");
+        transform.parent.GetComponent<LiftScript>().AudioManager.PlayAudioById("OpenDoor");
+        gameObject.SetActive(false);
     }
 }

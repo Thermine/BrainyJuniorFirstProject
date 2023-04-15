@@ -29,6 +29,7 @@ public class LiftScript : MonoBehaviour
     {
         if(other.gameObject.tag == "Player" && !IsStart)
         {
+            Lift_Animator.speed = 1;
             LevelAmbient.Stop();
             StartCoroutine(Lift());
             Lift_Animator.SetTrigger("Close");
@@ -44,8 +45,9 @@ public class LiftScript : MonoBehaviour
         AsyncLoad.AsyncLoading(SceneIndex);
     }
     [ContextMenu("Stest")]
-    IEnumerator StartLift()
+    public IEnumerator StartLift()
     {
+
         yield return new WaitForSeconds(0.5f);
         Lift_Animator.SetTrigger("Open");
         LevelAmbient.Play();
