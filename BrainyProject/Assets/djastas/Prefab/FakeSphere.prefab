@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3061474773636536082}
   - component: {fileID: 3061474773636536086}
   - component: {fileID: 476316397093755378}
+  - component: {fileID: 5387127840535563412}
   m_Layer: 0
   m_Name: Sphere (3)
   m_TagString: Ball
@@ -157,6 +158,31 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 5387127840535563412}
+        m_TargetAssemblyTypeName: Pixelcrew.component.DestroyOdject, Assembly-CSharp
+        m_MethodName: Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &5387127840535563412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3061474773636536079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b5a972aec60034479358391888a4f4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _DestroyObject: {fileID: 3061474773636536079}
 --- !u!1 &3061474773890639871
 GameObject:
   m_ObjectHideFlags: 0
@@ -208,6 +234,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8840a0dc2af5d9345804743e9b74ad67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 66291126823114359}
+        m_TargetAssemblyTypeName: UnityEngine.Collider, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   spheres:
   - {fileID: 3061474775314469534}
   - {fileID: 3061474773636536079}
@@ -272,6 +313,7 @@ GameObject:
   - component: {fileID: 3061474775314469537}
   - component: {fileID: 3061474775314469541}
   - component: {fileID: 8404096429783624954}
+  - component: {fileID: 4896681019399557369}
   m_Layer: 0
   m_Name: Sphere (2)
   m_TagString: Ball
@@ -414,6 +456,31 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 4896681019399557369}
+        m_TargetAssemblyTypeName: Pixelcrew.component.DestroyOdject, Assembly-CSharp
+        m_MethodName: Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4896681019399557369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3061474775314469534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b5a972aec60034479358391888a4f4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _DestroyObject: {fileID: 3061474775314469534}
 --- !u!1 &3061474775396444431
 GameObject:
   m_ObjectHideFlags: 0
@@ -429,6 +496,7 @@ GameObject:
   - component: {fileID: 3061474775396444434}
   - component: {fileID: 3061474775396444438}
   - component: {fileID: 3450261718510970298}
+  - component: {fileID: 7612679016117308526}
   m_Layer: 0
   m_Name: Sphere (4)
   m_TagString: Ball
@@ -571,6 +639,31 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7612679016117308526}
+        m_TargetAssemblyTypeName: Pixelcrew.component.DestroyOdject, Assembly-CSharp
+        m_MethodName: Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &7612679016117308526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3061474775396444431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b5a972aec60034479358391888a4f4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _DestroyObject: {fileID: 3061474775396444431}
 --- !u!1 &5478634382291938266
 GameObject:
   m_ObjectHideFlags: 0

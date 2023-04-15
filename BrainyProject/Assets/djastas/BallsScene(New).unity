@@ -607,7 +607,7 @@ PrefabInstance:
     - target: {fileID: 5298998986603296853, guid: 78442fed3b112c34eb8092b57ae205de,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5298998986603296853, guid: 78442fed3b112c34eb8092b57ae205de,
         type: 3}
@@ -659,6 +659,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 811528928}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetSphereController
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: djastas.SphereManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78442fed3b112c34eb8092b57ae205de, type: 3}
 --- !u!4 &188747449 stripped
@@ -694,7 +724,7 @@ PrefabInstance:
     - target: {fileID: 5298998986603296853, guid: 78442fed3b112c34eb8092b57ae205de,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5298998986603296853, guid: 78442fed3b112c34eb8092b57ae205de,
         type: 3}
@@ -746,6 +776,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 811528928}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetSphereController
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: djastas.SphereManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78442fed3b112c34eb8092b57ae205de, type: 3}
 --- !u!4 &297739439 stripped
@@ -782,7 +842,7 @@ PrefabInstance:
     - target: {fileID: 3061474773890639744, guid: bcdf1d3e9cf5f904481f05586a387c91,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3061474773890639744, guid: bcdf1d3e9cf5f904481f05586a387c91,
         type: 3}
@@ -1018,7 +1078,7 @@ PrefabInstance:
     - target: {fileID: 5298998986603296853, guid: 78442fed3b112c34eb8092b57ae205de,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 5298998986603296853, guid: 78442fed3b112c34eb8092b57ae205de,
         type: 3}
@@ -1070,6 +1130,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 811528928}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetSphereController
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: djastas.SphereManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78442fed3b112c34eb8092b57ae205de, type: 3}
 --- !u!4 &341160305 stripped
@@ -1102,6 +1192,7 @@ GameObject:
   - component: {fileID: 344072783}
   - component: {fileID: 344072782}
   - component: {fileID: 344072781}
+  - component: {fileID: 344072784}
   m_Layer: 5
   m_Name: InputFieldName
   m_TagString: Untagged
@@ -1248,6 +1339,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 344072779}
   m_CullTransparentMesh: 1
+--- !u!114 &344072784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344072779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a783e08553329b941bd9ee264db5d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 811528928}
+        m_TargetAssemblyTypeName: djastas.SphereManager, Assembly-CSharp
+        m_MethodName: SetNumInSelectSphere
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  inputField: {fileID: 344072781}
 --- !u!1 &354890427
 GameObject:
   m_ObjectHideFlags: 0
@@ -1360,6 +1479,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 811528927}
   - {fileID: 1299060807}
   - {fileID: 312946624}
   - {fileID: 1783631189}
@@ -1458,7 +1578,7 @@ PrefabInstance:
     - target: {fileID: 5298998986603296853, guid: 78442fed3b112c34eb8092b57ae205de,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 5298998986603296853, guid: 78442fed3b112c34eb8092b57ae205de,
         type: 3}
@@ -1509,6 +1629,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 811528928}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetSphereController
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: djastas.SphereManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78442fed3b112c34eb8092b57ae205de, type: 3}
@@ -1669,17 +1819,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 811528926}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.006257763, y: 0.70707935, z: -0.0062575946, w: 0.707079}
+  m_LocalPosition: {x: 0, y: 0, z: 3.8941488}
+  m_LocalScale: {x: 0.009999997, y: 0.010000001, z: 0.010000002}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1255022994}
-  m_RootOrder: 1
+  m_Father: {fileID: 450200496}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0, y: 23.25}
+  m_AnchoredPosition: {x: 9.781149, y: -4.4539165}
   m_SizeDelta: {x: 100, y: 53.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &811528928
@@ -1694,7 +1844,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13381340acf693549870f8623776b70b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sphereControllers: []
+  sphereControllers:
+  - {fileID: 5298998985582370835}
+  - {fileID: 1783631190}
+  - {fileID: 297739440}
+  - {fileID: 1110681776}
+  - {fileID: 2016112331}
+  - {fileID: 1095535011}
+  - {fileID: 188747450}
+  - {fileID: 512466596}
+  - {fileID: 341160306}
+  - {fileID: 1342392499}
   sphereController: {fileID: 8292445109664964466}
 --- !u!1 &811868136
 GameObject:
@@ -1741,7 +1901,7 @@ PrefabInstance:
     - target: {fileID: 3061474773890639744, guid: bcdf1d3e9cf5f904481f05586a387c91,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3061474773890639744, guid: bcdf1d3e9cf5f904481f05586a387c91,
         type: 3}
@@ -1994,7 +2154,6 @@ Transform:
   - {fileID: 8292445108694917080}
   - {fileID: 705507995}
   - {fileID: 1695657007}
-  - {fileID: 1911550902}
   - {fileID: 1015593786877578552}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -2009,7 +2168,7 @@ PrefabInstance:
     - target: {fileID: 3061474773890639744, guid: bcdf1d3e9cf5f904481f05586a387c91,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3061474773890639744, guid: bcdf1d3e9cf5f904481f05586a387c91,
         type: 3}
@@ -2066,7 +2225,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: FakeSphere (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5049830819286787624, guid: bcdf1d3e9cf5f904481f05586a387c91, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bcdf1d3e9cf5f904481f05586a387c91, type: 3}
 --- !u!4 &938709696 stripped
 Transform:
@@ -2321,7 +2481,7 @@ PrefabInstance:
     - target: {fileID: 3061474773890639744, guid: bcdf1d3e9cf5f904481f05586a387c91,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3061474773890639744, guid: bcdf1d3e9cf5f904481f05586a387c91,
         type: 3}
@@ -2573,7 +2733,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1255022994}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2637,7 +2797,7 @@ PrefabInstance:
     - target: {fileID: 5298998986603296853, guid: 78442fed3b112c34eb8092b57ae205de,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5298998986603296853, guid: 78442fed3b112c34eb8092b57ae205de,
         type: 3}
@@ -2689,6 +2849,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 811528928}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetSphereController
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: djastas.SphereManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78442fed3b112c34eb8092b57ae205de, type: 3}
 --- !u!4 &1095535010 stripped
@@ -2730,7 +2920,7 @@ PrefabInstance:
     - target: {fileID: 5298998986603296853, guid: 78442fed3b112c34eb8092b57ae205de,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5298998986603296853, guid: 78442fed3b112c34eb8092b57ae205de,
         type: 3}
@@ -2781,6 +2971,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 811528928}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetSphereController
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: djastas.SphereManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78442fed3b112c34eb8092b57ae205de, type: 3}
@@ -2981,7 +3201,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 344072780}
-  - {fileID: 811528927}
   - {fileID: 1915196770}
   - {fileID: 1039391592}
   m_Father: {fileID: 1246147849089048731}
@@ -3074,7 +3293,7 @@ PrefabInstance:
     - target: {fileID: 5298998986603296853, guid: 78442fed3b112c34eb8092b57ae205de,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 5298998986603296853, guid: 78442fed3b112c34eb8092b57ae205de,
         type: 3}
@@ -3125,6 +3344,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 811528928}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetSphereController
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: djastas.SphereManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78442fed3b112c34eb8092b57ae205de, type: 3}
@@ -3694,7 +3943,7 @@ PrefabInstance:
     - target: {fileID: 5298998986603296853, guid: 78442fed3b112c34eb8092b57ae205de,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5298998986603296853, guid: 78442fed3b112c34eb8092b57ae205de,
         type: 3}
@@ -3746,6 +3995,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 811528928}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetSphereController
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: djastas.SphereManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78442fed3b112c34eb8092b57ae205de, type: 3}
 --- !u!4 &1783631189 stripped
@@ -3793,15 +4072,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1911550901}
-  m_LocalRotation: {x: -0.3139005, y: -0.47709587, z: -0.71431047, w: -0.40448305}
-  m_LocalPosition: {x: 6.74, y: -0.32, z: 2.49}
-  m_LocalScale: {x: 0.30000013, y: 0.30000007, z: 0.30000028}
+  m_LocalRotation: {x: -0.00000007450576, y: 0.70710653, z: 0.000000737607, w: 0.707107}
+  m_LocalPosition: {x: 0.049, y: 0, z: 0}
+  m_LocalScale: {x: 0.17, y: 0.17, z: 0.17}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 41533534}
-  m_Father: {fileID: 916266525}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: -154.681, y: -112.621, z: -76.074005}
+  m_Father: {fileID: 1969889892905405911}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &1911550903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3887,6 +4166,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1255022994}
     m_Modifications:
+    - target: {fileID: 2452114810006785953, guid: c216c4fb684db134c9cdf8441b831f9f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452114810106249890, guid: c216c4fb684db134c9cdf8441b831f9f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2452114810106249892, guid: c216c4fb684db134c9cdf8441b831f9f,
         type: 3}
       propertyPath: m_Type
@@ -3898,6 +4187,41 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -623255099, guid: 5242de5ce1b013246b4cf4a8c619eca9,
         type: 3}
+    - target: {fileID: 2452114811203809786, guid: c216c4fb684db134c9cdf8441b831f9f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452114811203809786, guid: c216c4fb684db134c9cdf8441b831f9f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452114811203809786, guid: c216c4fb684db134c9cdf8441b831f9f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 344072784}
+    - target: {fileID: 2452114811203809786, guid: c216c4fb684db134c9cdf8441b831f9f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452114811203809786, guid: c216c4fb684db134c9cdf8441b831f9f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Submit
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452114811203809786, guid: c216c4fb684db134c9cdf8441b831f9f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: djastas.InputFieldController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2452114811203809786, guid: c216c4fb684db134c9cdf8441b831f9f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2452114811308096170, guid: c216c4fb684db134c9cdf8441b831f9f,
         type: 3}
       propertyPath: m_Name
@@ -3921,7 +4245,7 @@ PrefabInstance:
     - target: {fileID: 2452114811308096173, guid: c216c4fb684db134c9cdf8441b831f9f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2452114811308096173, guid: c216c4fb684db134c9cdf8441b831f9f,
         type: 3}
@@ -4250,7 +4574,7 @@ PrefabInstance:
     - target: {fileID: 5298998986603296853, guid: 78442fed3b112c34eb8092b57ae205de,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5298998986603296853, guid: 78442fed3b112c34eb8092b57ae205de,
         type: 3}
@@ -4301,6 +4625,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 811528928}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetSphereController
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: djastas.SphereManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78442fed3b112c34eb8092b57ae205de, type: 3}
@@ -6083,7 +6437,7 @@ Transform:
   - {fileID: 422825299582533244}
   - {fileID: 6701653623475168836}
   m_Father: {fileID: 916266525}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!136 &1015593786877578553
 CapsuleCollider:
@@ -12282,7 +12636,8 @@ Transform:
   m_LocalPosition: {x: -0.149, y: 0.007, z: 0.003}
   m_LocalScale: {x: 1.0000001, y: 1, z: 1.0000001}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1911550902}
   m_Father: {fileID: 1246147849089048803}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -7.435, y: -166.936, z: 14.147}
@@ -14672,7 +15027,7 @@ PrefabInstance:
     - target: {fileID: 3061474773890639744, guid: bcdf1d3e9cf5f904481f05586a387c91,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3061474773890639744, guid: bcdf1d3e9cf5f904481f05586a387c91,
         type: 3}
@@ -19314,7 +19669,7 @@ PrefabInstance:
     - target: {fileID: 5298998986603296853, guid: 78442fed3b112c34eb8092b57ae205de,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5298998986603296853, guid: 78442fed3b112c34eb8092b57ae205de,
         type: 3}
@@ -19365,6 +19720,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 811528928}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetSphereController
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: djastas.SphereManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78442fed3b112c34eb8092b57ae205de, type: 3}
