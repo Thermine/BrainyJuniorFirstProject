@@ -141,8 +141,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4723454d0a6dd14e890d0173b9a0f81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _weight: 0
-  num: 0
+  weight: 0
+  expectedWeight: 0
   up: {fileID: 5298998985940538709}
   down: {fileID: 5298998985692674186}
   target: {fileID: 4223669897513385852}
@@ -221,6 +221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5298998986603296853}
   - component: {fileID: 5298998986603296858}
+  - component: {fileID: 8851496952901453954}
   m_Layer: 0
   m_Name: Target
   m_TagString: Untagged
@@ -258,11 +259,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4723454d0a6dd14e890d0173b9a0f81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _weight: 0
-  num: 0
+  weight: 0
+  expectedWeight: 0
   up: {fileID: 5298998985940538709}
   down: {fileID: 5298998985692674186}
   target: {fileID: 4223669897513385852}
   speed: 0.01
   minScale: 2
   maxScale: 4
+--- !u!114 &8851496952901453954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5298998986603296852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2f6a487f8e679a438e441e30c010b1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

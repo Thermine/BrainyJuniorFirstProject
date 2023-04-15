@@ -1,12 +1,14 @@
 
 using System;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace djastas
 {
     [RequireComponent(typeof(StopwatchComponent))]
     public class FakeSphere : MonoBehaviour
     {
+        public UnityEvent action;
         public GameObject[] spheres;
         public GameObject target;
         public StopwatchComponent stopwatchComponent;
@@ -29,6 +31,7 @@ namespace djastas
             }
             stopwatchComponent.StartStopwatch();
             target.SetActive(false);
+            action.Invoke();
         }
 
         public void MicroSphereExplosion()
