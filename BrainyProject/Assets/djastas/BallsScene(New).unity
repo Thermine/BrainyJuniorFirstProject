@@ -1994,7 +1994,6 @@ Transform:
   - {fileID: 8292445108694917080}
   - {fileID: 705507995}
   - {fileID: 1695657007}
-  - {fileID: 1911550902}
   - {fileID: 1015593786877578552}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -2066,7 +2065,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: FakeSphere (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5049830819286787624, guid: bcdf1d3e9cf5f904481f05586a387c91, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bcdf1d3e9cf5f904481f05586a387c91, type: 3}
 --- !u!4 &938709696 stripped
 Transform:
@@ -3793,15 +3793,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1911550901}
-  m_LocalRotation: {x: -0.3139005, y: -0.47709587, z: -0.71431047, w: -0.40448305}
-  m_LocalPosition: {x: 6.74, y: -0.32, z: 2.49}
-  m_LocalScale: {x: 0.30000013, y: 0.30000007, z: 0.30000028}
+  m_LocalRotation: {x: -0.00000007450576, y: 0.70710653, z: 0.000000737607, w: 0.707107}
+  m_LocalPosition: {x: 0.049, y: 0, z: 0}
+  m_LocalScale: {x: 0.17, y: 0.17, z: 0.17}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 41533534}
-  m_Father: {fileID: 916266525}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: -154.681, y: -112.621, z: -76.074005}
+  m_Father: {fileID: 1969889892905405911}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &1911550903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6083,7 +6083,7 @@ Transform:
   - {fileID: 422825299582533244}
   - {fileID: 6701653623475168836}
   m_Father: {fileID: 916266525}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!136 &1015593786877578553
 CapsuleCollider:
@@ -12282,7 +12282,8 @@ Transform:
   m_LocalPosition: {x: -0.149, y: 0.007, z: 0.003}
   m_LocalScale: {x: 1.0000001, y: 1, z: 1.0000001}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1911550902}
   m_Father: {fileID: 1246147849089048803}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -7.435, y: -166.936, z: 14.147}
