@@ -42,11 +42,7 @@ public class ObjectSwitcher : MonoBehaviour
             currentImageIndex++;
             if (numberIndex <= ShootNumbers.Length && ShootNumbers[numberIndex] == currentImageIndex)
             {
-                shooter.ShootTime = ShootSpeed[numberIndex];
-                shooter.PrepareToShoot();
-                print("Shoot!");
-                yield return new WaitForSeconds(ShootSpeed[numberIndex] + 0.5f);
-                numberIndex++;
+                StartCoroutine(Shoot());
             }
             // устанавливаем новую картинку
             yield return new WaitForSeconds(timeBetweenImages);
@@ -54,10 +50,7 @@ public class ObjectSwitcher : MonoBehaviour
             {
                 if (ShootNumbers[numberIndex] == FigureIndexess.Count)
                 {
-                    shooter.ShootTime = ShootSpeed[numberIndex];
-                    shooter.PrepareToShoot();
-                    print("Shoot!");
-                    yield return new WaitForSeconds(ShootSpeed[numberIndex] + 0.5f);
+                    StartCoroutine(Shoot());
                 }
                 yield return new WaitForSeconds(timeBetweenImages);
                 imageDisplay.enabled = false;
@@ -71,7 +64,14 @@ public class ObjectSwitcher : MonoBehaviour
             }
         }
     }
-
+    IEnumerator Shoot()
+    {
+        shooter.ShootTime = ShootSpeed[numberIndex];
+        shooter.PrepareToShoot();
+        print("Shoot!");
+        yield return new WaitForSeconds(ShootSpeed[numberIndex] + 0.5f);
+        numberIndex++;
+    }
     public void ChangePlayAudioImage()
     {
         imageDisplay.sprite = voiceImages[FigureIndexess[currentImageIndex]].image;
