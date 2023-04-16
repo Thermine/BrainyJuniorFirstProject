@@ -42,14 +42,14 @@ public class EnterPassword : MonoBehaviour
     {
         if (PlayerCombination == RightCombination)
         {
-            InputField.text = "Верная комбинация!";
+            InputField.text = "You're right!";
             yield return new WaitForSeconds(1);
             RightComb();
             gameObject.SetActive(false);
         }
         else
         {
-            InputField.text = "Неправильный пароль!";
+            InputField.text = "Wrong!!!";
             yield return new WaitForSeconds(1);
             InputField.text = "";
             PlayerCombination = "";
@@ -69,5 +69,6 @@ public class EnterPassword : MonoBehaviour
         LiftAnimator.SetTrigger("Open");
         transform.parent.GetComponent<LiftScript>().AudioManager.PlayAudioById("OpenDoor");
         gameObject.SetActive(false);
+        transform.parent.GetComponent<BoxCollider>().enabled = true;
     }
 }

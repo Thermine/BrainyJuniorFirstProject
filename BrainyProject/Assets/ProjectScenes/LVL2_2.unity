@@ -805,7 +805,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -17469,8 +17469,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8593526761048431688, guid: b9c06a51b52c9984f92818ba0ab40790,
         type: 3}
+      propertyPath: m_Size.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8593526761048431688, guid: b9c06a51b52c9984f92818ba0ab40790,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8593526761048431688, guid: b9c06a51b52c9984f92818ba0ab40790,
+        type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8593526761048431693, guid: b9c06a51b52c9984f92818ba0ab40790,
         type: 3}
