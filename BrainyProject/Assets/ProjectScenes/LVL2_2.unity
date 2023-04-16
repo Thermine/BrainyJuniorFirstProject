@@ -144,7 +144,7 @@ GameObject:
   - component: {fileID: 77631759}
   - component: {fileID: 77631758}
   m_Layer: 0
-  m_Name: Button (6)
+  m_Name: 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -164,7 +164,7 @@ RectTransform:
   m_Children:
   - {fileID: 720742346}
   m_Father: {fileID: 1899230537}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 163991462}
   - component: {fileID: 163991461}
   m_Layer: 0
-  m_Name: Button (5)
+  m_Name: 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -388,7 +388,7 @@ GameObject:
   - component: {fileID: 225150772}
   - component: {fileID: 225150771}
   m_Layer: 0
-  m_Name: Button (1)
+  m_Name: 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -727,7 +727,7 @@ GameObject:
   - component: {fileID: 245539476}
   - component: {fileID: 245539475}
   m_Layer: 0
-  m_Name: Button (4)
+  m_Name: 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -747,7 +747,7 @@ RectTransform:
   m_Children:
   - {fileID: 243952318}
   m_Father: {fileID: 1899230537}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -867,7 +867,7 @@ GameObject:
   - component: {fileID: 435157834}
   - component: {fileID: 435157833}
   m_Layer: 0
-  m_Name: Button (7)
+  m_Name: 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1629,7 +1629,7 @@ GameObject:
   - component: {fileID: 830219081}
   - component: {fileID: 830219080}
   m_Layer: 0
-  m_Name: Button (2)
+  m_Name: 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1751,7 +1751,7 @@ GameObject:
   - component: {fileID: 1007373717}
   - component: {fileID: 1007373716}
   m_Layer: 0
-  m_Name: Button
+  m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1938,7 +1938,7 @@ GameObject:
   - component: {fileID: 1090375894}
   - component: {fileID: 1090375893}
   m_Layer: 0
-  m_Name: Button (8)
+  m_Name: 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1958,7 +1958,7 @@ RectTransform:
   m_Children:
   - {fileID: 1775980118}
   m_Father: {fileID: 1899230537}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2713,6 +2713,7 @@ MonoBehaviour:
   PlayerCombination: 
   InputField: {fileID: 1843186920}
   LiftAnimator: {fileID: 7004901850003815408}
+  AudioID: Remember
 --- !u!223 &1683623528 stripped
 Canvas:
   m_CorrespondingSourceObject: {fileID: 3415194425717404070, guid: 55fd782d573bb9c49b4b81bb3baf8731,
@@ -3481,12 +3482,12 @@ RectTransform:
   - {fileID: 1007373715}
   - {fileID: 225150770}
   - {fileID: 830219079}
-  - {fileID: 2001992035}
   - {fileID: 245539474}
+  - {fileID: 2001992035}
   - {fileID: 163991460}
-  - {fileID: 77631757}
-  - {fileID: 435157832}
   - {fileID: 1090375892}
+  - {fileID: 435157832}
+  - {fileID: 77631757}
   - {fileID: 1843186919}
   m_Father: {fileID: 1677221362}
   m_RootOrder: 0
@@ -3553,7 +3554,7 @@ GameObject:
   - component: {fileID: 2001992037}
   - component: {fileID: 2001992036}
   m_Layer: 0
-  m_Name: Button (3)
+  m_Name: 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3573,7 +3574,7 @@ RectTransform:
   m_Children:
   - {fileID: 1288899597}
   m_Father: {fileID: 1899230537}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7976,7 +7977,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5574488fa0be0aa40a25d0a6ca09db70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioList: []
+  audioList:
+  - id: Remember
+    audio: {fileID: 8300000, guid: a936d9c6e648f654dab45714b46811ec, type: 3}
 --- !u!1 &7004901848160166396
 GameObject:
   m_ObjectHideFlags: 0

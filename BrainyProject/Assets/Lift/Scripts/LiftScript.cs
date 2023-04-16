@@ -7,7 +7,7 @@ using UnityEngine.Events;
 public class LiftScript : MonoBehaviour
 {
 
-    AsyncLoad AsyncLoad;
+    public AsyncLoad AsyncLoad;
     public int SceneIndex;
     public AudioManager AudioManager;
     public AudioSource LevelAmbient;

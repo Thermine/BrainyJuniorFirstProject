@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using djastas;
 
 public class EnterPassword : MonoBehaviour
 {
@@ -9,7 +10,13 @@ public class EnterPassword : MonoBehaviour
     public string PlayerCombination; // комбинация игрока
     public TMP_InputField InputField;
     public Animator LiftAnimator;
+    AudioManager AudioManager;
+    public string AudioID;
 
+    private void Start()
+    {
+        AudioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
+    }
     public void EnterDigit(int digit) // ввод числа из UI
     {
         if(PlayerCombination.Length != RightCombination.Length)
@@ -48,8 +55,17 @@ public class EnterPassword : MonoBehaviour
             PlayerCombination = "";
         }
     }
+
+    public IEnumerator FalseComb()
+    {
+        yield return new WaitForSeconds(15);
+        AudioManager.PlayAudioById(AudioID);
+        yield return new WaitForSeconds(40);
+        transform.parent.GetComponent<LiftScript>().AsyncLoad.AsyncLoading(transform.parent.GetComponent<LiftScript>().SceneIndex);
+    }
     void RightComb()
     {
+        StopCoroutine(FalseComb());
         LiftAnimator.SetTrigger("Open");
         transform.parent.GetComponent<LiftScript>().AudioManager.PlayAudioById("OpenDoor");
         gameObject.SetActive(false);
