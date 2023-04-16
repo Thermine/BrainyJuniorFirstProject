@@ -1,30 +1,52 @@
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using Pixelcrew;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace djastas
 {
    public class SphereDataController : MonoBehaviour
    {
       [SerializeField] private SphereController[] sphereControllers;
-
-      [ContextMenu("Test")]
-      public void Test()
-      {
-         Debug.Log(GetData());
-      }
+      [SerializeField] private StringAction sendWeight; // unityEvent который отправляет в SaveDataInFileComponent вес шаров
       
-      public List<string> GetData()
+
+      private List<string> GetData()
       {
          List<string> data = new List<string>();
          foreach (var sphereController in sphereControllers)
          {
-            var i = sphereController.expectedWeight.ToString(CultureInfo.InvariantCulture);
+            var i = (sphereController.weight - sphereController.expectedWeight).ToString(CultureInfo.InvariantCulture);
+            
             data = data.Append(i).ToList();
          }
 
          return data;
       }
+      [ContextMenu("Test")]
+      public void SendData()
+      {
+         var weightList = GetData();
+         foreach (var i in weightList)
+         {
+            sendWeight.Invoke(i);
+         }
+
+      }
+      
+      
+      
+      
+[Serializable]
+      class StringAction : UnityEvent<string>
+      {
+         
+      }
+
+      
+      
    }
 }

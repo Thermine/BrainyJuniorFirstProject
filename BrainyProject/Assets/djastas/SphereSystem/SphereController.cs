@@ -6,7 +6,7 @@ using Random = UnityEngine.Random;
 
 public class SphereController : MonoBehaviour
 {
-    [SerializeField]private float _weight; //для просмотра
+    public float weight; //для просмотра
     
    public float expectedWeight; // предпологаемый/введеный  вес
 
@@ -20,10 +20,10 @@ public class SphereController : MonoBehaviour
 
    private void Start()
    {
-      _weight = Random.Range(15,85);
-      var i = Remap(_weight, 15, 85, minScale, maxScale);
+      weight = Random.Range(15,85);
+      var i = Remap(weight, 15, 85, minScale, maxScale);
       target.transform.localScale = new Vector3(i,i,i);
-      expectedWeight = _weight - 99;
+      expectedWeight = weight - 99;
    }
 
    public void SetNum(int i)
@@ -33,7 +33,7 @@ public class SphereController : MonoBehaviour
 
    private void Update()
    {
-      var i =  _weight - expectedWeight;
+      var i =  weight - expectedWeight;
 
       
       var posIdeal = ((up.localPosition.y - down.localPosition.y) / 100) * i;
