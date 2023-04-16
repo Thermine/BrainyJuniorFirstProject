@@ -48,10 +48,7 @@ public class ObjectSwitcher : MonoBehaviour
             yield return new WaitForSeconds(timeBetweenImages);
             if (currentImageIndex == FigureIndexess.Count)
             {
-                if (ShootNumbers[numberIndex] == FigureIndexess.Count)
-                {
-                    StartCoroutine(Shoot());
-                }
+                print("wohohoo");
                 yield return new WaitForSeconds(timeBetweenImages);
                 imageDisplay.enabled = false;
                 PlayerCombPanel.SetActive(true);
