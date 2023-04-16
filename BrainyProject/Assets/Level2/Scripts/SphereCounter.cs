@@ -2,14 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VideoHAHA : MonoBehaviour
+public class SphereCounter : MonoBehaviour
 {
-    public GameObject video;
+    public static int ColCounter;
+
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if(other.gameObject.tag == "Player")
         {
-            video.SetActive(true);
+            SphereCounter.ColCounter++;
         }
     }
 }

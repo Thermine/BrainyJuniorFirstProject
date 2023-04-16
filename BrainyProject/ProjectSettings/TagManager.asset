@@ -13,6 +13,7 @@ TagManager:
   - Metal
   - Glass
   - Ball
+  - DataSaver
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - Camera
   - Water
   - UI
-  - 
+  - IgnoreUI
   - 
   - 
   - 

@@ -1,3 +1,4 @@
+using HurricaneVR.Framework.Core.Player;
 using UnityEngine;
 
 namespace djastas
@@ -6,6 +7,14 @@ namespace djastas
     {
         [SerializeField] private float lengthGizmo;
         [SerializeField] private GameObject particle;
+        [SerializeField] private HVRPlayerController pc;
+        private void Update()
+        {
+            if (pc.RightHand.Inputs.IsRightTriggerHoldActive)
+            {
+                Shoot();
+            }
+        }
         [ContextMenu("er")]
         public void Shoot()
         {
@@ -15,7 +24,14 @@ namespace djastas
             if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity))
             {
                 var i = hit.collider.gameObject.GetComponent<InteractObject>();
-                i?.Interact();
+                if (i!=null)
+                {
+                    i.Interact();
+                }else
+                {
+                    Debug.Log("object not interactable");
+                }
+
                 Debug.Log("Did Hit");
             }
             else

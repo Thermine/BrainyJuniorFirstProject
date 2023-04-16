@@ -12,6 +12,7 @@ public class FootStep : MonoBehaviour
         if(other.gameObject.tag == "Player")
         {
             ObjectSwitcher.Starting();
+            Destroy(GetComponent<BoxCollider>());
         }
     }
 }
