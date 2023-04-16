@@ -20,11 +20,21 @@ public class NumberRemembering : MonoBehaviour
         if (amount <= ObjectSwitcher.FigureIndexess.Count)
         {
             Player_Combination += " " + type;
+            if (amount == ObjectSwitcher.FigureIndexess.Count)
+            {
+                StartCoroutine(wait());
+            }
         }
-        if (amount == ObjectSwitcher.FigureIndexess.Count)
-        {
-            StartCoroutine(wait());
-        }
+    }
+    [ContextMenu("Chech")]
+    public void VvodEditor()
+    {
+            amount+=1;
+            if (amount == ObjectSwitcher.FigureIndexess.Count)
+            {
+                StartCoroutine(wait());
+            }
+        
     }
     IEnumerator wait()
     {
