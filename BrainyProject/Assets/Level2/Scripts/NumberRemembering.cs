@@ -34,15 +34,15 @@ public class NumberRemembering : MonoBehaviour
             {
                 StartCoroutine(wait());
             }
-        
     }
     IEnumerator wait()
     {
-        SaveDataInFileComponent.WriteCsv(Player_Combination);
         yield return new WaitForSeconds(0.5f);
         for (int i = 0; i < btns.Length; i++)
         {
             btns[i].SetActive(false);
         }
+        SaveDataInFileComponent.WriteCsv(Player_Combination);
+
     }
 }

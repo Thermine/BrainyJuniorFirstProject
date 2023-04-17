@@ -13,28 +13,29 @@ public class LiftScript : MonoBehaviour
     public AudioSource LevelAmbient;
     public string LiftAmbientID;
     public Animator Lift_Animator;
-    public bool IsStart;
+    public bool Dont_Close;
 
     [SerializeField] private UnityEvent exitLevelAction;
 
     private void Start()
     {
         AsyncLoad = GetComponent<AsyncLoad>();
-        if (IsStart)
+        if (Dont_Close)
         {
             StartCoroutine(StartLift());
         }
     }
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "Player" && !IsStart)
+        if(other.gameObject.tag == "Player" && !Dont_Close)
         {
+            Dont_Close = true;
             Lift_Animator.speed = 1;
             LevelAmbient.Stop();
-            StartCoroutine(Lift());
-            Lift_Animator.SetTrigger("Close");
-            GetComponent<BoxCollider>().enabled = false;
+            Destroy(GetComponent<BoxCollider>());
             exitLevelAction.Invoke();
+            Lift_Animator.SetTrigger("Close");
+            StartCoroutine(Lift());
         }
     }
    
