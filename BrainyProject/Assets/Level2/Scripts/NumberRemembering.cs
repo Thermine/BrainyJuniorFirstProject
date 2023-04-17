@@ -16,14 +16,14 @@ public class NumberRemembering : MonoBehaviour
     }
     public void vvod(string type)
     {
-        amount += 1;
-        if (amount <= ObjectSwitcher.FigureIndexess.Count)
+        if (amount < ObjectSwitcher.FigureIndexess.Count)
         {
             Player_Combination += " " + type;
-            if (amount == ObjectSwitcher.FigureIndexess.Count)
-            {
-                StartCoroutine(wait());
-            }
+        }   
+        amount += 1;
+        if (amount == ObjectSwitcher.FigureIndexess.Count)
+        {
+            StartCoroutine(wait());
         }
     }
     [ContextMenu("Chech")]
