@@ -1,7 +1,7 @@
 using djastas;
 using System.Collections;
 using System.Collections.Generic;
-using BrainyJunior.MyGame.Scripts.Singleton;
+using BrainyJunior.MyGame.Scripts.Managers;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 

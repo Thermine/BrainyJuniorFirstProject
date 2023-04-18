@@ -1,6 +1,7 @@
 using Pixelcrew;
 using System.Collections;
 using System.Collections.Generic;
+using BrainyJunior.MyGame.Scripts.Managers;
 using UnityEngine;
 
 public class NumberRemembering : MonoBehaviour
@@ -9,10 +10,10 @@ public class NumberRemembering : MonoBehaviour
     [SerializeField] private ObjectSwitcher ObjectSwitcher;
     [SerializeField] private int amount;
     [SerializeField] private GameObject[] btns;
-    private SaveDataInFileComponent SaveDataInFileComponent;
+    private SaveDataInFileManager SaveDataInFileComponent;
     private void Start()
     {
-        SaveDataInFileComponent = GameObject.FindObjectOfType<SaveDataInFileComponent>();
+        SaveDataInFileComponent = GameObject.FindObjectOfType<SaveDataInFileManager>();
     }
     public void EnterFigure(string type)
     {

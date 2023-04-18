@@ -3,7 +3,7 @@
   using StvDEV.StarterPack;
   using UnityEngine;
  
-  namespace BrainyJunior.MyGame.Scripts.Singleton
+  namespace BrainyJunior.MyGame.Scripts.Managers
   {
       public class AudioManager : MonoBehaviourSingleton<AudioManager> {
           

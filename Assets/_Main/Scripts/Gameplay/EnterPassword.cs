@@ -1,5 +1,5 @@
 using System.Collections;
-using BrainyJunior.MyGame.Scripts.Singleton;
+using BrainyJunior.MyGame.Scripts.Managers;
 using UnityEngine;
 using TMPro;
 using djastas;
