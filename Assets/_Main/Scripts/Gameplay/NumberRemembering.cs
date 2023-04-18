@@ -5,37 +5,37 @@ using UnityEngine;
 
 public class NumberRemembering : MonoBehaviour
 {
-    public string Player_Combination;
-    public ObjectSwitcher ObjectSwitcher;
-    public int amount;
-    public GameObject[] btns;
-    SaveDataInFileComponent SaveDataInFileComponent;
+    [SerializeField] private string Player_Combination;
+    [SerializeField] private ObjectSwitcher ObjectSwitcher;
+    [SerializeField] private int amount;
+    [SerializeField] private GameObject[] btns;
+    private SaveDataInFileComponent SaveDataInFileComponent;
     private void Start()
     {
-        SaveDataInFileComponent = GameObject.FindWithTag("DataSaver").GetComponent<SaveDataInFileComponent>();
+        SaveDataInFileComponent = GameObject.FindObjectOfType<SaveDataInFileComponent>();
     }
-    public void vvod(string type)
+    public void EnterFigure(string type)
     {
         if (amount < ObjectSwitcher.FigureIndexess.Count)
         {
-            Player_Combination += " " + type;
+            Player_Combination += $",{type}";
         }   
         amount += 1;
         if (amount == ObjectSwitcher.FigureIndexess.Count)
         {
-            StartCoroutine(wait());
+            StartCoroutine(Wait());
         }
     }
     [ContextMenu("Chech")]
-    public void VvodEditor()
+    public void EnterFigureEditor()
     {
             amount+=1;
             if (amount == ObjectSwitcher.FigureIndexess.Count)
             {
-                StartCoroutine(wait());
+                StartCoroutine(Wait());
             }
     }
-    IEnumerator wait()
+    IEnumerator Wait()
     {
         yield return new WaitForSeconds(0.5f);
         for (int i = 0; i < btns.Length; i++)

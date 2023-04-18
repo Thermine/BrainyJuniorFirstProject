@@ -6,10 +6,10 @@ using UnityEngine.UIElements;
 
 public class LoadSphereCol : MonoBehaviour
 {
-    public SaveDataInFileComponent SaveDataInFileComponent;
+    [SerializeField] private SaveDataInFileComponent SaveDataInFileComponent;
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.CompareTag("Player"))
         {
             SaveDataInFileComponent.WriteCsv(SphereCounter.ColCounter.ToString());
         }

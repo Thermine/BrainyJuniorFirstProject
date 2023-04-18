@@ -4,21 +4,21 @@ using UnityEngine;
 using HurricaneVR;
 using HurricaneVR.Framework.Core.Player;
 public class SphereShooter : MonoBehaviour
-{
-    Transform camera; // голова
-    Vector3 ShootPosition; // позиция куда будет выстреливать сфера
-    GameObject ShootingSphere; 
-    public GameObject SpherePrefab; // префаб сферы
-    public GameObject[] SpawnPivots; // случайные точки для спавна
-    Transform currentPivot; // точка для спавна сферы
-    public float ShootTime; // время подлета сферы
+{    
+    [SerializeField] private GameObject SpherePrefab; 
+    [SerializeField] private float ShootTime; 
+    private Transform camera; 
+    Vector3 ShootPosition; 
+    GameObject ShootingSphere;
+    public GameObject[] SpawnPivots; 
+    Transform currentPivot; 
     public void PrepareToShoot()
     {        
-        camera = GameObject.Find("Camera").transform;
-        currentPivot = SpawnPivots[Random.Range(0, SpawnPivots.Length)].transform; // находим точку для спавна
-        ShootPosition = camera.position; // фиксируем позицию для выстрела
-        ShootingSphere = GameObject.Instantiate(SpherePrefab, currentPivot.position, Quaternion.identity); // спавним сферу
-        StartCoroutine(Shoot(ShootTime, ShootPosition)); // стреляем
+        camera = Camera.main.transform;
+        currentPivot = SpawnPivots[Random.Range(0, SpawnPivots.Length)].transform; 
+        ShootPosition = camera.position; 
+        ShootingSphere = GameObject.Instantiate(SpherePrefab, currentPivot.position, Quaternion.identity); 
+        StartCoroutine(Shoot(ShootTime, ShootPosition));  
     }
     private IEnumerator Shoot(float time, Vector3 targetPosition)
     {

@@ -6,14 +6,14 @@ using djastas;
 
 public class EnterPassword : MonoBehaviour
 {
-    public string RightCombination; // ���������� ���������� �����
-    public string PlayerCombination; // ���������� ������
-    public TMP_InputField InputField;
-    public Animator LiftAnimator;
-    public string AudioID;
+    [SerializeField] private string RightCombination;
+    [SerializeField] private string PlayerCombination;
+    [SerializeField] private TMP_InputField InputField;
+    [SerializeField] private Animator LiftAnimator;
+    [SerializeField] private string AudioID;
 
     
-    public void EnterDigit(int digit) // ���� ����� �� UI
+    public void EnterDigit(int digit) 
     {
         if(PlayerCombination.Length != RightCombination.Length)
         {
@@ -26,7 +26,7 @@ public class EnterPassword : MonoBehaviour
         }
     }
     [ContextMenu("EnterDigit")]
-    public void digitEditor()
+    public void EnterDigitEditor()
     {
         InputField.text = PlayerCombination;
         if (PlayerCombination.Length == RightCombination.Length)
@@ -40,7 +40,7 @@ public class EnterPassword : MonoBehaviour
         {
             InputField.text = "You're right!";
             yield return new WaitForSeconds(1);
-            RightComb();
+            RightCombintation();
             gameObject.SetActive(false);
         }
         else
@@ -52,16 +52,16 @@ public class EnterPassword : MonoBehaviour
         }
     }
 
-    public IEnumerator FalseComb()
+    public IEnumerator FalseCombintarion()
     {
         yield return new WaitForSeconds(15);
         AudioManager.Instance.PlayAudioById(AudioID);
         yield return new WaitForSeconds(40);
         transform.parent.GetComponent<LiftScript>().AsyncLoad.AsyncLoading(transform.parent.GetComponent<LiftScript>().SceneIndex);
     }
-    void RightComb()
+    void RightCombintation()
     {
-        StopCoroutine(FalseComb());
+        StopCoroutine(FalseCombintarion());
         LiftAnimator.SetTrigger("Open");
         AudioManager.Instance.PlayAudioById("OpenDoor");
         gameObject.SetActive(false);

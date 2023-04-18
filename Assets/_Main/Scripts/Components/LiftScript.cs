@@ -5,17 +5,16 @@ using BrainyJunior.MyGame.Scripts.Singleton;
 using UnityEngine;
 using UnityEngine.Events;
 
+[RequireComponent(typeof(AsyncLoad))]
 public class LiftScript : MonoBehaviour
 {
-
+    [SerializeField] private bool Dont_Close;
+    [SerializeField] private UnityEvent exitLevelAction;
+    [SerializeField] private AudioSource LevelAmbient;
+    [SerializeField] private string LiftAmbientID;
+    public Animator Lift_Animator;
     public AsyncLoad AsyncLoad;
     public int SceneIndex;
-    public AudioSource LevelAmbient;
-    public string LiftAmbientID;
-    public Animator Lift_Animator;
-    public bool Dont_Close;
-
-    [SerializeField] private UnityEvent exitLevelAction;
 
     private void Start()
     {
@@ -27,7 +26,7 @@ public class LiftScript : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "Player" && !Dont_Close)
+        if(other.gameObject.CompareTag("Player") && !Dont_Close)
         {
             Dont_Close = true;
             Lift_Animator.speed = 1;
