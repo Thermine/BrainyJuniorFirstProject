@@ -9,25 +9,25 @@ EditorBuildSettings:
     path: Assets/HurricaneVR/Framework/Integrations/FinalIK/FinalIk_Scene.unity
     guid: 9ad3572b1228a664486d421765503258
   - enabled: 1
-    path: Assets/ProjectScenes/HubScene.unity
+    path: Assets/_Main/ProjectScenes/0Level.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/djastas/BallsScene(New).unity
+    path: Assets/_Main/ProjectScenes/1Level.unity
     guid: 147e6e66e493eb6408e590408e29737a
   - enabled: 1
-    path: Assets/ProjectScenes/LVL2_2.unity
+    path: Assets/_Main/ProjectScenes/2Level.unity
     guid: 4f37b7c617dfe474db704afc65eedc3f
   - enabled: 1
-    path: Assets/EndScene/End_Scene.unity
+    path: Assets/_Main/ProjectScenes/End_Scene.unity
     guid: 96158b7b7d6b240d28e5ac1652e47736
   - enabled: 0
-    path: Assets/Lift/LiftTest.unity
+    path: Assets/_Main/ProjectScenes/Test/editor/LiftTest_enter.unity
     guid: 1817ca95e11e8d741b44648e4939a4ef
   - enabled: 0
-    path: Assets/ProjectScenes/MainScene.unity
+    path: Assets/_Main/ProjectScenes/Test/editor/MainScene.unity
     guid: 77ac0ea477ed346ea9e1a5200937fb99
   - enabled: 0
-    path: Assets/Lift/LiftTest 2.unity
+    path: Assets/_Main/ProjectScenes/Test/editor/LiftTest_Exit.unity
     guid: b8adab0956821aa4692879be477f4074
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
