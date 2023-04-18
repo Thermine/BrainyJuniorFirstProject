@@ -1947,7 +1947,6 @@ Transform:
   m_LocalScale: {x: 0.009999997, y: 0.009999999, z: 0.0100000035}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1911550902}
   - {fileID: 1255022994}
   m_Father: {fileID: 916266525}
   m_RootOrder: 3
@@ -1959,7 +1958,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 685442160}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0c2c24ddfbee8be4ea078e54ca89d431, type: 3}
   m_Name: 
@@ -3615,7 +3614,7 @@ RectTransform:
   - {fileID: 1915196770}
   - {fileID: 267588710}
   m_Father: {fileID: 685442161}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -3.368, y: -113.62, z: 73.209}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4602,14 +4601,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1911550901}
-  m_LocalRotation: {x: -0.09090676, y: 0.01315212, z: -0.72696346, w: -0.6805051}
-  m_LocalPosition: {x: 79.035065, y: -20.520708, z: -92.49822}
-  m_LocalScale: {x: 17, y: 17, z: 17}
+  m_LocalRotation: {x: -0.05618663, y: -0.6097911, z: -0.12682502, w: 0.78032905}
+  m_LocalPosition: {x: -0.19493398, y: 0.018875524, z: 0.015249817}
+  m_LocalScale: {x: 0.16999999, y: 0.16999999, z: 0.17}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1144723403}
-  m_Father: {fileID: 685442161}
-  m_RootOrder: 0
+  m_Father: {fileID: 1246147849089048803}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &1911550903
 MonoBehaviour:
@@ -8609,6 +8608,7 @@ Transform:
   m_Children:
   - {fileID: 1246147849089048801}
   - {fileID: 1969889892905405911}
+  - {fileID: 1911550902}
   - {fileID: 5239047092617387686}
   m_Father: {fileID: 1246147849089048805}
   m_RootOrder: 0
@@ -20156,7 +20156,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1246147849089048803}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -3.22}
 --- !u!1 &5282688016168533686
 GameObject:
