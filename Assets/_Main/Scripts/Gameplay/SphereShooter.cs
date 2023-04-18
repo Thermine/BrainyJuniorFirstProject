@@ -6,7 +6,7 @@ using HurricaneVR.Framework.Core.Player;
 public class SphereShooter : MonoBehaviour
 {    
     [SerializeField] private GameObject SpherePrefab; 
-    [SerializeField] private float ShootTime; 
+    public float ShootTime; 
     private Transform camera; 
     Vector3 ShootPosition; 
     GameObject ShootingSphere;
