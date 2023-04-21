@@ -11,7 +11,7 @@ namespace BrainyJunior.MyGame.Scripts.Managers
         private string _fullPathAndFileName;
         
 
-        [SerializeField] private string fileNameAndPath = "/test.csv";
+        [SerializeField] private string fileNameAndPath = "Resource/test.csv";
         
         
 
@@ -35,7 +35,7 @@ namespace BrainyJunior.MyGame.Scripts.Managers
 
         private void Start()
         {
-            _fullPathAndFileName = Application.dataPath + fileNameAndPath; 
+            _fullPathAndFileName = Application.persistentDataPath + fileNameAndPath; 
            
         }
 
