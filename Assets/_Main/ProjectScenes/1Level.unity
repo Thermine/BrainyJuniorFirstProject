@@ -4207,6 +4207,26 @@ PrefabInstance:
       propertyPath: LevelAmbient
       value: 
       objectReference: {fileID: 1351589653}
+    - target: {fileID: 8593526761048431693, guid: b9c06a51b52c9984f92818ba0ab40790,
+        type: 3}
+      propertyPath: exitLevelAction.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8593526761048431693, guid: b9c06a51b52c9984f92818ba0ab40790,
+        type: 3}
+      propertyPath: exitLevelAction.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8593526761048431693, guid: b9c06a51b52c9984f92818ba0ab40790,
+        type: 3}
+      propertyPath: exitLevelAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1756180076}
+    - target: {fileID: 8593526761048431693, guid: b9c06a51b52c9984f92818ba0ab40790,
+        type: 3}
+      propertyPath: exitLevelAction.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b9c06a51b52c9984f92818ba0ab40790, type: 3}
 --- !u!114 &1641500548 stripped
@@ -4463,7 +4483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d799ef7966b38b34385a7293fc1d20b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fileNameAndPath: /test.csv
+  fileNameAndPath: /Resources/test.csv
 --- !u!1001 &1783631188
 PrefabInstance:
   m_ObjectHideFlags: 0
