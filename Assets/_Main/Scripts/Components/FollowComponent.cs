@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 namespace djastas.Scripts.Components
@@ -14,6 +13,7 @@ namespace djastas.Scripts.Components
         [SerializeField] private bool xPos;
         [SerializeField] private bool yPos;
         [SerializeField] private bool zPos;
+        [SerializeField] private Vector3 posOffset;
         
         [Header("Rotation")]
         
@@ -30,17 +30,18 @@ namespace djastas.Scripts.Components
             var idealPosY = yPos ? Mathf.Lerp(selfPos.y, targetPos.y, speed) : selfPos.y;
             var idealPosZ = zPos ? Mathf.Lerp(selfPos.z, targetPos.z, speed) : selfPos.z;
             
-            gameObject.transform.position = new Vector3(idealPosX,idealPosY,idealPosZ);
+            gameObject.transform.position = new Vector3(idealPosX,idealPosY,idealPosZ) + posOffset;
             
             
-            var targetRot = target.position;
-            var selfRot = gameObject.transform.position;
+            var targetRot = target.rotation.eulerAngles;
+            var selfRot = gameObject.transform.rotation.eulerAngles;
             
             var idealRotX = xRot ? Mathf.Lerp(selfRot.x, targetRot.x, speed) : selfRot.x;
             var idealRotY = yRot ? Mathf.Lerp(selfRot.y, targetRot.y, speed) : selfRot.y;
             var idealRotZ = zRot ? Mathf.Lerp(selfRot.z, targetRot.z, speed) : selfRot.z;
 
-            gameObject.transform.rotation = new Quaternion(idealRotX, idealRotY, idealRotZ, 0);
+            
+            gameObject.transform.rotation = Quaternion.Euler(idealRotX, idealRotY, idealRotZ);
 
         }
     }
