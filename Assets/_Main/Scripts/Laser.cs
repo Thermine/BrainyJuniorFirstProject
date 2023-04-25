@@ -14,17 +14,20 @@ namespace djastas.Scripts
         private InteractObject _lastHoverCall;
         private void Update()
         {
-            
-            if (pc.RightHand.Inputs.IsRightTriggerHoldActive && _remainingTime <= 0)
+            if (pc.RightHand.Inputs.IsRightTriggerHoldActive)
             {
-                _remainingTime += reloadTime;
-                Shoot();
+                if ( _remainingTime <= 0)
+                {
+                    _remainingTime += reloadTime;
+                    Shoot();
+                }
+                else
+                {
+                    HoverShoot();
+                    _remainingTime -= Time.deltaTime;
+                }
             }
-            else
-            {
-                HoverShoot();
-                _remainingTime -= Time.deltaTime;
-            }
+           
 
         }
         [ContextMenu("TestShoot")]
