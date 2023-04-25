@@ -1124,6 +1124,9 @@ MonoBehaviour:
           m_StringArgument: praise2
           m_BoolArgument: 0
         m_CallState: 2
+  endInteractAction:
+    m_PersistentCalls:
+      m_Calls: []
   hoverAction:
     m_PersistentCalls:
       m_Calls: []
@@ -1157,6 +1160,9 @@ MonoBehaviour:
           m_StringArgument: praise1
           m_BoolArgument: 0
         m_CallState: 2
+  endInteractAction:
+    m_PersistentCalls:
+      m_Calls: []
   hoverAction:
     m_PersistentCalls:
       m_Calls: []
@@ -1190,6 +1196,9 @@ MonoBehaviour:
           m_StringArgument: praise0
           m_BoolArgument: 0
         m_CallState: 2
+  endInteractAction:
+    m_PersistentCalls:
+      m_Calls: []
   hoverAction:
     m_PersistentCalls:
       m_Calls: []
@@ -1235,6 +1244,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  endInteractAction:
+    m_PersistentCalls:
+      m_Calls: []
   hoverAction:
     m_PersistentCalls:
       m_Calls: []
@@ -2135,7 +2147,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13381340acf693549870f8623776b70b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DEBUG: {fileID: 267588711}
   sphereControllers:
   - {fileID: 5298998985582370835}
   - {fileID: 1783631190}
@@ -2321,6 +2332,9 @@ MonoBehaviour:
           m_StringArgument: praise2
           m_BoolArgument: 0
         m_CallState: 2
+  endInteractAction:
+    m_PersistentCalls:
+      m_Calls: []
   hoverAction:
     m_PersistentCalls:
       m_Calls: []
@@ -2354,6 +2368,9 @@ MonoBehaviour:
           m_StringArgument: praise1
           m_BoolArgument: 0
         m_CallState: 2
+  endInteractAction:
+    m_PersistentCalls:
+      m_Calls: []
   hoverAction:
     m_PersistentCalls:
       m_Calls: []
@@ -2387,6 +2404,9 @@ MonoBehaviour:
           m_StringArgument: praise0
           m_BoolArgument: 0
         m_CallState: 2
+  endInteractAction:
+    m_PersistentCalls:
+      m_Calls: []
   hoverAction:
     m_PersistentCalls:
       m_Calls: []
@@ -2432,6 +2452,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  endInteractAction:
+    m_PersistentCalls:
+      m_Calls: []
   hoverAction:
     m_PersistentCalls:
       m_Calls: []
@@ -2615,6 +2638,9 @@ MonoBehaviour:
           m_StringArgument: praise2
           m_BoolArgument: 0
         m_CallState: 2
+  endInteractAction:
+    m_PersistentCalls:
+      m_Calls: []
   hoverAction:
     m_PersistentCalls:
       m_Calls: []
@@ -2648,6 +2674,9 @@ MonoBehaviour:
           m_StringArgument: praise1
           m_BoolArgument: 0
         m_CallState: 2
+  endInteractAction:
+    m_PersistentCalls:
+      m_Calls: []
   hoverAction:
     m_PersistentCalls:
       m_Calls: []
@@ -2681,6 +2710,9 @@ MonoBehaviour:
           m_StringArgument: praise0
           m_BoolArgument: 0
         m_CallState: 2
+  endInteractAction:
+    m_PersistentCalls:
+      m_Calls: []
   hoverAction:
     m_PersistentCalls:
       m_Calls: []
@@ -2726,6 +2758,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  endInteractAction:
+    m_PersistentCalls:
+      m_Calls: []
   hoverAction:
     m_PersistentCalls:
       m_Calls: []
@@ -2951,6 +2986,9 @@ MonoBehaviour:
           m_StringArgument: praise2
           m_BoolArgument: 0
         m_CallState: 2
+  endInteractAction:
+    m_PersistentCalls:
+      m_Calls: []
   hoverAction:
     m_PersistentCalls:
       m_Calls: []
@@ -2984,6 +3022,9 @@ MonoBehaviour:
           m_StringArgument: praise1
           m_BoolArgument: 0
         m_CallState: 2
+  endInteractAction:
+    m_PersistentCalls:
+      m_Calls: []
   hoverAction:
     m_PersistentCalls:
       m_Calls: []
@@ -3017,6 +3058,9 @@ MonoBehaviour:
           m_StringArgument: praise0
           m_BoolArgument: 0
         m_CallState: 2
+  endInteractAction:
+    m_PersistentCalls:
+      m_Calls: []
   hoverAction:
     m_PersistentCalls:
       m_Calls: []
@@ -3062,6 +3106,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  endInteractAction:
+    m_PersistentCalls:
+      m_Calls: []
   hoverAction:
     m_PersistentCalls:
       m_Calls: []
@@ -15707,6 +15754,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  endInteractAction:
+    m_PersistentCalls:
+      m_Calls: []
   hoverAction:
     m_PersistentCalls:
       m_Calls: []
@@ -15758,6 +15808,9 @@ MonoBehaviour:
           m_StringArgument: praise2
           m_BoolArgument: 0
         m_CallState: 2
+  endInteractAction:
+    m_PersistentCalls:
+      m_Calls: []
   hoverAction:
     m_PersistentCalls:
       m_Calls: []
@@ -15791,6 +15844,9 @@ MonoBehaviour:
           m_StringArgument: praise1
           m_BoolArgument: 0
         m_CallState: 2
+  endInteractAction:
+    m_PersistentCalls:
+      m_Calls: []
   hoverAction:
     m_PersistentCalls:
       m_Calls: []
@@ -15824,6 +15880,9 @@ MonoBehaviour:
           m_StringArgument: praise0
           m_BoolArgument: 0
         m_CallState: 2
+  endInteractAction:
+    m_PersistentCalls:
+      m_Calls: []
   hoverAction:
     m_PersistentCalls:
       m_Calls: []
@@ -20311,9 +20370,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
         type: 3}
+      propertyPath: endInteractAction.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 811528928}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: endInteractAction.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: endInteractAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2100000, guid: 5e72fc40e9d824271af6e26ccfe99457, type: 2}
+    - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
+        type: 3}
+      propertyPath: endInteractAction.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78442fed3b112c34eb8092b57ae205de, type: 3}
 --- !u!114 &5298998985582370835 stripped
