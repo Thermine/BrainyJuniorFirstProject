@@ -19,9 +19,11 @@ namespace BrainyJunior.MyGame.Scripts.Managers
         [ContextMenu("write")]
         public void WriteCsv(string i)
         {
+            CustomDebugConsole.Instance.Debug(_fullPathAndFileName);
             _tw = new StreamWriter(_fullPathAndFileName, true);
             _tw.Write(i + ",");
             _tw.Close();
+            
 
         }
         
@@ -38,42 +40,8 @@ namespace BrainyJunior.MyGame.Scripts.Managers
             _fullPathAndFileName = Application.persistentDataPath + fileNameAndPath; 
            
         }
-
-
         
         
-     
-
-        //[SerializeField] private TextAsset textAssetForRead;
-        // public PlayerList playerList = new PlayerList();
-        // [ContextMenu("read")]
-        // public void ReadCvs()
-        // {
-        //     string[] data = textAssetForRead.text.Split(new string[] {",", "\n"}, StringSplitOptions.None);
-        //     int tableSize = data.Length / 2 - 1;
-        //     playerList.players = new Player[tableSize];
-        //     for (int i = 0; i < tableSize; i++)
-        //     {
-        //         playerList.players[i] = new Player();
-        //         playerList.players[i].name = data[2* (i + 1)];
-        //         playerList.players[i].rer = data[2* (i + 1 ) + 1];
-        //     }
-        // } не используемый метод
-
-        
-        
-        // не используемый класс
-        public class Player
-        {
-            public string name;
-            public string rer;
-        }
-        
-        [Serializable]
-        public class PlayerList
-        {
-            public Player[] players;
-        }
 
     }
 }
