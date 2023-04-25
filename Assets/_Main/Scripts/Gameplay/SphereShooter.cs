@@ -1,8 +1,6 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using HurricaneVR;
-using HurricaneVR.Framework.Core.Player;
+
 public class SphereShooter : MonoBehaviour
 {    
     [SerializeField] private GameObject SpherePrefab; 
