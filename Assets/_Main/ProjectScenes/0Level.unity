@@ -2537,6 +2537,21 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 4704134250289777645, guid: fe3309c59fc1649a8a03d820ed2406bd,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5217762
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704134250289777645, guid: fe3309c59fc1649a8a03d820ed2406bd,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5217762
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704134250289777645, guid: fe3309c59fc1649a8a03d820ed2406bd,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5217762
+      objectReference: {fileID: 0}
     - target: {fileID: 4704134250471108710, guid: fe3309c59fc1649a8a03d820ed2406bd,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
