@@ -32,9 +32,9 @@ public class LiftScript : MonoBehaviour
             Lift_Animator.speed = 1;
             LevelAmbient.Stop();
             Destroy(GetComponent<BoxCollider>());
-            exitLevelAction.Invoke();
             Lift_Animator.SetTrigger("Close");
             StartCoroutine(Lift());
+            exitLevelAction.Invoke();
         }
     }
    

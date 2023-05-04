@@ -389,8 +389,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 3415194425395678290}
-        m_TargetAssemblyTypeName: Zapominanie, Assembly-CSharp
-        m_MethodName: vvod
+        m_TargetAssemblyTypeName: NumberRemembering, Assembly-CSharp
+        m_MethodName: EnterFigure
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -631,8 +631,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 3415194425395678290}
-        m_TargetAssemblyTypeName: Zapominanie, Assembly-CSharp
-        m_MethodName: vvod
+        m_TargetAssemblyTypeName: NumberRemembering, Assembly-CSharp
+        m_MethodName: EnterFigure
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -912,8 +912,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 3415194425395678290}
-        m_TargetAssemblyTypeName: Zapominanie, Assembly-CSharp
-        m_MethodName: vvod
+        m_TargetAssemblyTypeName: NumberRemembering, Assembly-CSharp
+        m_MethodName: EnterFigure
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1086,10 +1086,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpherePrefab: {fileID: 5527054829232966156, guid: 9ca925deb6231de4bb8763beab86ec09,
     type: 3}
+  ShootTime: 0
   SpawnPivots:
   - {fileID: 3404681130360944112}
   - {fileID: 1467435041424402140}
-  ShootTime: 0
 --- !u!114 &3415194425395678290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1121,6 +1121,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42316388c64086e428ca2f110be43c27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imageDisplay: {fileID: 3415194424786169346}
+  timeBetweenImages: 1
+  PlayerCombPanel: {fileID: 3415194425091058614}
+  ShootNumbers: ffffffffffffffff
+  ShootSpeed:
+  - 1
+  - 1
   FigureIndexess: 
   voiceImages:
   - image: {fileID: 21300000, guid: 49d2ee2856bb1484a9994c10af583949, type: 3}
@@ -1131,13 +1138,6 @@ MonoBehaviour:
     Audio: {fileID: 8300000, guid: 4081f0993e702c6408217742dbe7d2e6, type: 3}
   - image: {fileID: 21300000, guid: 8bdabdf5d8e34094aa269927e7d7d90c, type: 3}
     Audio: {fileID: 8300000, guid: 4e9625e7f28e9004da0d73054a832397, type: 3}
-  imageDisplay: {fileID: 3415194424786169346}
-  timeBetweenImages: 1
-  PlayerCombPanel: {fileID: 3415194425091058614}
-  ShootNumbers: ffffffffffffffff
-  ShootSpeed:
-  - 1
-  - 1
 --- !u!82 &3415194425395678284
 AudioSource:
   m_ObjectHideFlags: 0
