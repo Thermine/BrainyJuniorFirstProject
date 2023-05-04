@@ -1,7 +1,9 @@
+using System;
 using UnityEngine;
 
 namespace djastas.Scripts.Components
 {
+    [ExecuteAlways]
     public class FollowComponent : MonoBehaviour
     {
         [SerializeField] private Transform target;
@@ -13,15 +15,24 @@ namespace djastas.Scripts.Components
         [SerializeField] private bool xPos;
         [SerializeField] private bool yPos;
         [SerializeField] private bool zPos;
-        [SerializeField] private Vector3 posOffset;
         
+        [SerializeField] private Vector3 posOffset;
         [Header("Rotation")]
         
         [SerializeField] private bool xRot;
         [SerializeField] private bool yRot;
         [SerializeField] private bool zRot;
+#if UNITY_EDITOR
+        [SerializeField] private bool runOnEditor;
+#endif
+
+        
         private void Update()
         {
+#if UNITY_EDITOR
+            if (!runOnEditor) return;
+#endif
+            
             var targetPos = target.position;
             var selfPos = gameObject.transform.position;
 
