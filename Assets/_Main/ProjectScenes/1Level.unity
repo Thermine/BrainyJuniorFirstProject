@@ -4150,14 +4150,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1911550901}
-  m_LocalRotation: {x: -0.05618663, y: -0.6097911, z: -0.12682502, w: 0.78032905}
+  m_LocalRotation: {x: -0.056186598, y: -0.609791, z: -0.12682499, w: 0.780329}
   m_LocalPosition: {x: -0.19493398, y: 0.018875524, z: 0.015249817}
-  m_LocalScale: {x: 0.16999999, y: 0.16999999, z: 0.17}
+  m_LocalScale: {x: 0.17000002, y: 0.16999999, z: 0.17000006}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1144723403}
   m_Father: {fileID: 1246147849089048803}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &1911550903
 MonoBehaviour:
@@ -6524,7 +6524,7 @@ CharacterController:
   m_GameObject: {fileID: 1015593788509495198}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Height: 1.5
   m_Radius: 0.1
@@ -6593,7 +6593,7 @@ MonoBehaviour:
   LimitHeadDistance: 1
   MaxLean: 0.4
   FadeFromLean: 1
-  MouseTurning: 0
+  MouseTurning: 1
   MouseSensitivityX: 1
   IsGrounded: 0
   _actualVelocity: 0
@@ -7935,7 +7935,7 @@ Transform:
   m_Children:
   - {fileID: 1246147849089048815}
   m_Father: {fileID: 1246147849089048803}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1246147849089048803
 Transform:
@@ -7949,9 +7949,9 @@ Transform:
   m_LocalScale: {x: 1.0000001, y: 1, z: 1.0000001}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1911550902}
   - {fileID: 1246147849089048801}
   - {fileID: 1969889892905405911}
-  - {fileID: 1911550902}
   - {fileID: 5239047092617387686}
   m_Father: {fileID: 1246147849089048805}
   m_RootOrder: 0
@@ -12479,7 +12479,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1246147849089048803}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -7.435, y: -166.936, z: 14.147}
 --- !u!1 &2001870629213388752
 GameObject:
@@ -17664,7 +17664,7 @@ MonoBehaviour:
   IsJumpActivated: 0
   TeleportHandSide: 1
   SwapMovementAxis: 0
-  UseWASD: 1
+  UseWASD: 0
   IsMouseDown: 0
   MouseAxis: {x: 0, y: 0}
 --- !u!4 &4294632143679073193
@@ -19610,7 +19610,7 @@ PrefabInstance:
     - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
         type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetNumInSelectSphere
+      value: SetSphereController
       objectReference: {fileID: 0}
     - target: {fileID: 8851496952901453954, guid: 78442fed3b112c34eb8092b57ae205de,
         type: 3}
