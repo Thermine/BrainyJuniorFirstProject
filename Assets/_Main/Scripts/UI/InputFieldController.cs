@@ -12,8 +12,8 @@ namespace djastas
 
         public void Submit()
         {
-            
-        action?.Invoke(inputField.text);
+            action?.Invoke(inputField.text);
+            inputField.text = "";
         }
 [Serializable]
         private class  Action : UnityEvent<string>
