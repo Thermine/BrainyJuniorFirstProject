@@ -26,7 +26,7 @@ public class AsyncLoad: MonoBehaviour
         {
             continue;
         }
-        AudioManager.Instance.PlayAudioById(DzinId);
+        BackgroundMusicManager.Instance.PlayAudioById(DzinId);
         yield return new WaitForSeconds(2);
         AsyncOperation.allowSceneActivation = true;
     }

@@ -40,7 +40,7 @@ public class LiftScript : MonoBehaviour
    
     IEnumerator Lift()
     {
-        AudioManager.Instance.PlayAudioById(LiftAmbientID);
+        BackgroundMusicManager.Instance.PlayAudioById(LiftAmbientID);
         yield return new WaitForSeconds(10);
         AsyncLoad.AsyncLoading(SceneIndex);
     }
@@ -51,7 +51,7 @@ public class LiftScript : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         Lift_Animator.SetTrigger("Open");
         LevelAmbient.Play();
-        AudioManager.Instance.PlayAudioById("OpenDoor");
+        BackgroundMusicManager.Instance.PlayAudioById("OpenDoor");
 
     }
 }

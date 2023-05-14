@@ -25,7 +25,7 @@ namespace djastas
         [ContextMenu("Explosion")]
         public void Explosion()
         {
-            AudioManager.Instance.PlayAudioById("106");
+            BackgroundMusicManager.Instance.PlayAudioById("106");
             foreach (var i in spheres)
             {
                 i.SetActive(true);

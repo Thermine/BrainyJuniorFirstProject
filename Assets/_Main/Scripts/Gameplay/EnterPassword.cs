@@ -55,7 +55,7 @@ public class EnterPassword : MonoBehaviour
     public IEnumerator FalseCombintarion()
     {
         yield return new WaitForSeconds(15);
-        AudioManager.Instance.PlayAudioById(AudioID);
+        BackgroundMusicManager.Instance.PlayAudioById(AudioID);
         yield return new WaitForSeconds(40);
         transform.parent.GetComponent<LiftScript>().AsyncLoad.AsyncLoading(transform.parent.GetComponent<LiftScript>().SceneIndex);
     }
@@ -63,7 +63,7 @@ public class EnterPassword : MonoBehaviour
     {
         StopCoroutine(FalseCombintarion());
         LiftAnimator.SetTrigger("Open");
-        AudioManager.Instance.PlayAudioById("OpenDoor");
+        BackgroundMusicManager.Instance.PlayAudioById("OpenDoor");
         gameObject.SetActive(false);
         transform.parent.GetComponent<BoxCollider>().enabled = true;
     }

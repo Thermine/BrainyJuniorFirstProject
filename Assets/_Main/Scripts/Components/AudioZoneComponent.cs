@@ -9,6 +9,6 @@ public class AudioZoneComponent : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if(!other.CompareTag(triggerTag)) return;
-        AudioManager.Instance.PlayAudioById(audioId);
+        BackgroundMusicManager.Instance.PlayAudioById(audioId);
     }
 }
