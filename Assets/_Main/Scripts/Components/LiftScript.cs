@@ -6,6 +6,7 @@ using UnityEngine;
 using UnityEngine.Events;
 
 [RequireComponent(typeof(AsyncLoad))]
+[RequireComponent(typeof(AudioSource))]
 public class LiftScript : MonoBehaviour
 {
     [SerializeField] private bool Dont_Close;
@@ -15,34 +16,42 @@ public class LiftScript : MonoBehaviour
     public Animator Lift_Animator;
     public AsyncLoad AsyncLoad;
     public int SceneIndex;
+    AudioSource LastMeeting;
 
     private void Start()
     {
+        LastMeeting = GetComponent<AudioSource>();
         AsyncLoad = GetComponent<AsyncLoad>();
         if (Dont_Close)
         {
             StartCoroutine(StartLift());
+            LevelAmbient.Play();
         }
     }
-    private void OnTriggerEnter(Collider other)
+    public void OpenLift()
     {
-        if(other.gameObject.CompareTag("Player") && !Dont_Close)
-        {
+        StartCoroutine(StartLift());
+    }
+    public void CloseLift() 
+    { 
             Dont_Close = true;
             Lift_Animator.speed = 1;
             LevelAmbient.Stop();
-            Destroy(GetComponent<BoxCollider>());
             Lift_Animator.SetTrigger("Close");
-            StartCoroutine(Lift());
             exitLevelAction.Invoke();
-        }
+            StartCoroutine(Lift());
     }
    
     IEnumerator Lift()
     {
+
         BackgroundMusicManager.Instance.PlayAudioById(LiftAmbientID);
+        yield return new WaitForSeconds(2);
+        LastMeeting.Play();
+
         yield return new WaitForSeconds(10);
         AsyncLoad.AsyncLoading(SceneIndex);
+        
     }
     [ContextMenu("Stest")]
     public IEnumerator StartLift()
@@ -50,8 +59,8 @@ public class LiftScript : MonoBehaviour
 
         yield return new WaitForSeconds(0.5f);
         Lift_Animator.SetTrigger("Open");
-        LevelAmbient.Play();
         BackgroundMusicManager.Instance.PlayAudioById("OpenDoor");
+
 
     }
 }

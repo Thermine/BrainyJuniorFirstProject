@@ -1,3 +1,4 @@
+using BrainyJunior.MyGame.Scripts.Managers;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -52,6 +53,7 @@ public class ObjectSwitcher : MonoBehaviour
                 yield return new WaitForSeconds(timeBetweenImages);
                 imageDisplay.enabled = false;
                 PlayerCombPanel.SetActive(true);
+                AudioManager.Instance.PlayAudioById("117");
                 break;
             }
             // увеличиваем индекс текущей картинки

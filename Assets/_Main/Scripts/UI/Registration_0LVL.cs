@@ -26,10 +26,10 @@ public class Registration_0LVL : MonoBehaviour
         {
             if (FieldIndex < Fields.Count)
             { 
-                SumbitInfo();
                 FieldIndex++;
                 currentField = Fields[FieldIndex];
                 Keyboard.TextField = currentField;
+                SumbitInfo(Fields[FieldIndex - 1]);
             }
             else
             {
@@ -39,11 +39,11 @@ public class Registration_0LVL : MonoBehaviour
 
     }
 
-    public void SumbitInfo()
+    public void SumbitInfo(InputField inputField)
     {
-        if(Info != currentField.text)
+        if(Info != inputField.text)
         {
-            Info = currentField.text;
+            Info = inputField.text;
             SaveDataInFileManager.WriteCsv(Info);
         }
 
