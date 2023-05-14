@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/_Main/ProjectScenes/End_Scene.unity
     guid: 96158b7b7d6b240d28e5ac1652e47736
   - enabled: 0
-    path: Assets/_Main/ProjectScenes/Test/editor/LiftTest_enter.unity
+    path: Assets/_Main/ProjectScenes/Test/editor/LiftTest_Enter.unity
     guid: 1817ca95e11e8d741b44648e4939a4ef
   - enabled: 0
     path: Assets/_Main/ProjectScenes/Test/editor/MainScene.unity
