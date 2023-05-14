@@ -24,9 +24,13 @@ namespace djastas.Scripts
                 }
                 else
                 {
-                    HoverShoot();
                     _remainingTime -= Time.deltaTime;
                 }
+                
+            }else
+            {
+                HoverShoot();
+                
             }
            
 

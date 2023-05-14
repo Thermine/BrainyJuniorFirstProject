@@ -1131,13 +1131,13 @@ MonoBehaviour:
   FigureIndexess: 
   voiceImages:
   - image: {fileID: 21300000, guid: 49d2ee2856bb1484a9994c10af583949, type: 3}
-    Audio: {fileID: 8300000, guid: b26e36c40a92ebe48a6d9d3093904dff, type: 3}
+    Audio: {fileID: 8300000, guid: 17f41bd766124c644a60a57d74428836, type: 3}
   - image: {fileID: 21300000, guid: 092b6a3bb13db74419236ad238b2d9ef, type: 3}
-    Audio: {fileID: 8300000, guid: 4e9625e7f28e9004da0d73054a832397, type: 3}
+    Audio: {fileID: 8300000, guid: aed1bbe5b360aa346abd09a2b218b57a, type: 3}
   - image: {fileID: 21300000, guid: 9eb883a21ae157443ad5545b7ac3f199, type: 3}
-    Audio: {fileID: 8300000, guid: 4081f0993e702c6408217742dbe7d2e6, type: 3}
+    Audio: {fileID: 8300000, guid: 300319f27317d66438f6fe693c429edd, type: 3}
   - image: {fileID: 21300000, guid: 8bdabdf5d8e34094aa269927e7d7d90c, type: 3}
-    Audio: {fileID: 8300000, guid: 4e9625e7f28e9004da0d73054a832397, type: 3}
+    Audio: {fileID: 8300000, guid: aed1bbe5b360aa346abd09a2b218b57a, type: 3}
 --- !u!82 &3415194425395678284
 AudioSource:
   m_ObjectHideFlags: 0

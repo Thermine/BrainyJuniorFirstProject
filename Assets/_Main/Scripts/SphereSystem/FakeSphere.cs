@@ -1,5 +1,6 @@
 
 using System;
+using BrainyJunior.MyGame.Scripts.Managers;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -24,6 +25,7 @@ namespace djastas
         [ContextMenu("Explosion")]
         public void Explosion()
         {
+            AudioManager.Instance.PlayAudioById("106");
             foreach (var i in spheres)
             {
                 i.SetActive(true);
@@ -32,6 +34,7 @@ namespace djastas
             stopwatchComponent.StartStopwatch();
             target.SetActive(false);
             action.Invoke();
+            
         }
 
         public void MicroSphereExplosion()

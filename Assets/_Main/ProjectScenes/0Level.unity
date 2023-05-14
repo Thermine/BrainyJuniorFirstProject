@@ -379,6 +379,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 694873812}
+        m_TargetAssemblyTypeName: DotsCounter, Assembly-CSharp
+        m_MethodName: OnDetroyDot
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &650440933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -504,6 +516,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 694873812}
+        m_TargetAssemblyTypeName: DotsCounter, Assembly-CSharp
+        m_MethodName: OnDetroyDot
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -645,6 +669,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 694873812}
+        m_TargetAssemblyTypeName: DotsCounter, Assembly-CSharp
+        m_MethodName: OnDetroyDot
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &661413575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -694,6 +730,7 @@ GameObject:
   - component: {fileID: 694873811}
   - component: {fileID: 694873810}
   - component: {fileID: 694873809}
+  - component: {fileID: 694873812}
   m_Layer: 0
   m_Name: Target
   m_TagString: Untagged
@@ -752,6 +789,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &694873812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694873808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 979c0f96204ddb14d9b8c933395bd252, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LiftScript: {fileID: 1314056441}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1588,30 +1638,35 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5217421429740218153, guid: b9c06a51b52c9984f92818ba0ab40790,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: eef089159b3de3e43b02152d6ce6e9e1, type: 3}
     - target: {fileID: 6219511716894017124, guid: b9c06a51b52c9984f92818ba0ab40790,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.6724985
+      value: 0.70710677
       objectReference: {fileID: 0}
     - target: {fileID: 6219511716894017124, guid: b9c06a51b52c9984f92818ba0ab40790,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.6724985
+      value: 0.70710677
       objectReference: {fileID: 0}
     - target: {fileID: 6219511716894017124, guid: b9c06a51b52c9984f92818ba0ab40790,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.2185081
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6219511716894017124, guid: b9c06a51b52c9984f92818ba0ab40790,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.2185081
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6219511716894017124, guid: b9c06a51b52c9984f92818ba0ab40790,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 54
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 7235117865420211549, guid: b9c06a51b52c9984f92818ba0ab40790,
         type: 3}
@@ -1626,27 +1681,27 @@ PrefabInstance:
     - target: {fileID: 7994645276770747957, guid: b9c06a51b52c9984f92818ba0ab40790,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.6724985
+      value: 0.70710677
       objectReference: {fileID: 0}
     - target: {fileID: 7994645276770747957, guid: b9c06a51b52c9984f92818ba0ab40790,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.6724985
+      value: 0.70710677
       objectReference: {fileID: 0}
     - target: {fileID: 7994645276770747957, guid: b9c06a51b52c9984f92818ba0ab40790,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.2185081
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7994645276770747957, guid: b9c06a51b52c9984f92818ba0ab40790,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.2185081
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7994645276770747957, guid: b9c06a51b52c9984f92818ba0ab40790,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 54
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 8236588170408832292, guid: b9c06a51b52c9984f92818ba0ab40790,
         type: 3}
@@ -1743,8 +1798,55 @@ PrefabInstance:
       propertyPath: LevelAmbient
       value: 
       objectReference: {fileID: 1351589653}
+    - target: {fileID: 8593526761048431693, guid: b9c06a51b52c9984f92818ba0ab40790,
+        type: 3}
+      propertyPath: exitLevelAction.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8593526761048431693, guid: b9c06a51b52c9984f92818ba0ab40790,
+        type: 3}
+      propertyPath: exitLevelAction.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8593526761048431693, guid: b9c06a51b52c9984f92818ba0ab40790,
+        type: 3}
+      propertyPath: exitLevelAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8292445108694917081}
+    - target: {fileID: 8593526761048431693, guid: b9c06a51b52c9984f92818ba0ab40790,
+        type: 3}
+      propertyPath: exitLevelAction.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8593526761048431693, guid: b9c06a51b52c9984f92818ba0ab40790,
+        type: 3}
+      propertyPath: exitLevelAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 8593526761048431693, guid: b9c06a51b52c9984f92818ba0ab40790,
+        type: 3}
+      propertyPath: exitLevelAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8593526761048431693, guid: b9c06a51b52c9984f92818ba0ab40790,
+        type: 3}
+      propertyPath: exitLevelAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b9c06a51b52c9984f92818ba0ab40790, type: 3}
+--- !u!114 &1314056441 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8593526761048431693, guid: b9c06a51b52c9984f92818ba0ab40790,
+    type: 3}
+  m_PrefabInstance: {fileID: 1314056440}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5b7f096362edba40b5ee7f025d55b38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1349311060
 GameObject:
   m_ObjectHideFlags: 0
@@ -2169,6 +2271,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 694873812}
+        m_TargetAssemblyTypeName: DotsCounter, Assembly-CSharp
+        m_MethodName: OnDetroyDot
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1488226226}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -2397,6 +2511,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 694873812}
+        m_TargetAssemblyTypeName: DotsCounter, Assembly-CSharp
+        m_MethodName: OnDetroyDot
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1572623047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2472,6 +2598,26 @@ PrefabInstance:
       propertyPath: TextField
       value: 
       objectReference: {fileID: 1608027380}
+    - target: {fileID: 4704134250114411500, guid: fe3309c59fc1649a8a03d820ed2406bd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704134250114411500, guid: fe3309c59fc1649a8a03d820ed2406bd,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704134250114411500, guid: fe3309c59fc1649a8a03d820ed2406bd,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -159
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704134250114411501, guid: fe3309c59fc1649a8a03d820ed2406bd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4704134250289777644, guid: fe3309c59fc1649a8a03d820ed2406bd,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -2557,6 +2703,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4704134250666899124, guid: fe3309c59fc1649a8a03d820ed2406bd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1608027377}
     - target: {fileID: 7725492884270120843, guid: fe3309c59fc1649a8a03d820ed2406bd,
         type: 3}
       propertyPath: m_Name
@@ -2741,6 +2892,12 @@ PrefabInstance:
     - {fileID: 7156176105123978315, guid: fe3309c59fc1649a8a03d820ed2406bd, type: 3}
     - {fileID: 7156176105123978314, guid: fe3309c59fc1649a8a03d820ed2406bd, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: fe3309c59fc1649a8a03d820ed2406bd, type: 3}
+--- !u!1 &1608027377 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4704134249247853105, guid: fe3309c59fc1649a8a03d820ed2406bd,
+    type: 3}
+  m_PrefabInstance: {fileID: 1608027376}
+  m_PrefabAsset: {fileID: 0}
 --- !u!223 &1608027378 stripped
 Canvas:
   m_CorrespondingSourceObject: {fileID: 7725492884270120852, guid: fe3309c59fc1649a8a03d820ed2406bd,
@@ -2864,6 +3021,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 694873812}
+        m_TargetAssemblyTypeName: DotsCounter, Assembly-CSharp
+        m_MethodName: OnDetroyDot
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3005,6 +3174,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 694873812}
+        m_TargetAssemblyTypeName: DotsCounter, Assembly-CSharp
+        m_MethodName: OnDetroyDot
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1648630566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3138,6 +3319,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 694873812}
+        m_TargetAssemblyTypeName: DotsCounter, Assembly-CSharp
+        m_MethodName: OnDetroyDot
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1658038822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3263,6 +3456,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 694873812}
+        m_TargetAssemblyTypeName: DotsCounter, Assembly-CSharp
+        m_MethodName: OnDetroyDot
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3465,6 +3670,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 694873812}
+        m_TargetAssemblyTypeName: DotsCounter, Assembly-CSharp
+        m_MethodName: OnDetroyDot
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -18096,7 +18313,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &4906812660473754700
 MonoBehaviour:
   m_ObjectHideFlags: 0
