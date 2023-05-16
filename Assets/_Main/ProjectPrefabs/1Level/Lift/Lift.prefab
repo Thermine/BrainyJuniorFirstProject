@@ -1704,7 +1704,8 @@ MonoBehaviour:
   - id: OpenDoor
     audio: {fileID: 8300000, guid: acb82e09a61be534cbb48d3b8890550a, type: 3}
   backgroundMusics: []
-  audioSourcePrefab: {fileID: 0}
+  audioSourcePrefab: {fileID: 598438314883506775, guid: eac8a9503cb8b364193c7f1191a36177,
+    type: 3}
   playBackgroundMusicOnStart: 0
   background: {fileID: 0}
   fadeOutTime: 0
