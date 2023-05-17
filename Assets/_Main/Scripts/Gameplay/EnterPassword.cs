@@ -11,7 +11,7 @@ public class EnterPassword : MonoBehaviour
     [SerializeField] private TMP_InputField InputField;
     [SerializeField] private Animator LiftAnimator;
     [SerializeField] private string AudioID;
-    [SerializeField] private LiftScript Lift;
+    
 
 
 

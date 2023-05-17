@@ -2121,7 +2121,6 @@ MonoBehaviour:
   InputField: {fileID: 1843186920}
   LiftAnimator: {fileID: 7004901850003815408}
   AudioID: 124
-  Lift: {fileID: 0}
 --- !u!65 &1677221367
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4370,8 +4369,42 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3018330413505110546, guid: b6f6a8b56bc62b547a34b547a908b3f5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b6f6a8b56bc62b547a34b547a908b3f5, type: 3}
+--- !u!1 &3018330412163775199 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3018330413505110548, guid: b6f6a8b56bc62b547a34b547a908b3f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 3018330412163775198}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3018330412163775200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3018330412163775199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5574488fa0be0aa40a25d0a6ca09db70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioList:
+  - id: 117
+    audio: {fileID: 8300000, guid: 7208c9fce3661494a8077155b487798a, type: 3}
+  - id: 123
+    audio: {fileID: 8300000, guid: 9ec265668c050c74fac197be0c95fca0, type: 3}
+  - id: 124
+    audio: {fileID: 8300000, guid: 9e4567709422f1d4983908412b3c19e1, type: 3}
+  backgroundMusics: []
+  audioSourcePrefab: {fileID: 3652064081764677137, guid: 529e1439aa7f42e4b9a4b4a6b8d2c941,
+    type: 3}
+  playBackgroundMusicOnStart: 1
+  background: {fileID: 0}
+  fadeOutTime: 0
+  fadeInTime: 3
+  musicChangeInterval: 0
 --- !u!23 &3110112314740980908
 MeshRenderer:
   m_ObjectHideFlags: 0

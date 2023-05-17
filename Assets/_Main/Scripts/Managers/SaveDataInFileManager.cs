@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace BrainyJunior.MyGame.Scripts.Managers
 {
-    public class SaveDataInFileManager : MonoBehaviourSingleton<BackgroundMusicManager>
+    public class SaveDataInFileManager : MonoBehaviourSingleton<SaveDataInFileManager>
     {
         private TextWriter _tw; 
         private string _fullPathAndFileName;

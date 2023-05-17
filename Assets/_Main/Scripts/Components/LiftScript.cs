@@ -38,7 +38,7 @@ public class LiftScript : MonoBehaviour
             Lift_Animator.speed = 1;
           //  LevelAmbient.Stop();
             Lift_Animator.SetTrigger("Close");
-            exitLevelAction.Invoke();
+         //   exitLevelAction.Invoke();
             StartCoroutine(Lift());
     }
    
