@@ -4140,10 +4140,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lengthGizmo: 87.91
-  particle: {fileID: 385432543572975757, guid: ed184c2a6edccf34db2b3cde3a3fb0c7, type: 3}
+  particle: {fileID: 8234019828059883599, guid: dfd5de89f8273ec44a30316f62bcddbd,
+    type: 3}
   pc: {fileID: 1015593788509495170}
   reloadTime: 0.2
-  audioPlayer: {fileID: 0}
 --- !u!114 &1944883874 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7060756800846518628, guid: 1c81cba8d138e034a835a9cf5de520bf,
@@ -25117,7 +25117,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &8913311080235154105
 MonoBehaviour:
   m_ObjectHideFlags: 0
