@@ -4,28 +4,28 @@ using System.Collections.Generic;
 using BrainyJunior.MyGame.Scripts.Managers;
 using UnityEngine;
 using UnityEngine.Events;
+using BrainyJunior.MyGame.Scripts.Audio;
 
 [RequireComponent(typeof(AsyncLoad))]
-[RequireComponent(typeof(AudioSource))]
 public class LiftScript : MonoBehaviour
 {
     [SerializeField] private bool Dont_Close;
     [SerializeField] private UnityEvent exitLevelAction;
-    [SerializeField] private AudioSource LevelAmbient;
+ //   [SerializeField] private AudioSource LevelAmbient;
     [SerializeField] private string LiftAmbientID;
+    [SerializeField] private AudioPlayer AudioPlayer;
+    [SerializeField] private string LiftPlayerID;
     public Animator Lift_Animator;
     public AsyncLoad AsyncLoad;
     public int SceneIndex;
-    AudioSource LastMeeting;
-
+    
     private void Start()
     {
-        LastMeeting = GetComponent<AudioSource>();
         AsyncLoad = GetComponent<AsyncLoad>();
         if (Dont_Close)
         {
             StartCoroutine(StartLift());
-            LevelAmbient.Play();
+           // LevelAmbient.Play();
         }
     }
     public void OpenLift()
@@ -36,7 +36,7 @@ public class LiftScript : MonoBehaviour
     { 
             Dont_Close = true;
             Lift_Animator.speed = 1;
-            LevelAmbient.Stop();
+          //  LevelAmbient.Stop();
             Lift_Animator.SetTrigger("Close");
             exitLevelAction.Invoke();
             StartCoroutine(Lift());
@@ -45,10 +45,11 @@ public class LiftScript : MonoBehaviour
     IEnumerator Lift()
     {
 
-        BackgroundMusicManager.Instance.PlayAudioById(LiftAmbientID);
-        yield return new WaitForSeconds(2);
-        LastMeeting.Play();
-
+        AudioPlayer.PlayAudioById(LiftAmbientID, true);
+        if(LiftPlayerID != "")
+        {
+            AudioPlayer.PlayAudioById(LiftPlayerID);
+        }
         yield return new WaitForSeconds(10);
         AsyncLoad.AsyncLoading(SceneIndex);
         
@@ -59,7 +60,7 @@ public class LiftScript : MonoBehaviour
 
         yield return new WaitForSeconds(0.5f);
         Lift_Animator.SetTrigger("Open");
-        BackgroundMusicManager.Instance.PlayAudioById("OpenDoor");
+        AudioPlayer.PlayAudioById("OpenDoor");
 
 
     }

@@ -1539,6 +1539,9 @@ MonoBehaviour:
       m_Calls: []
   LevelAmbient: {fileID: 0}
   LiftAmbientID: LiftAmbient
+  AudioPlayer: {fileID: 8593526762938112881}
+  LiftPlayerID: 
+  Audio: {fileID: 8593526762938112881}
   Lift_Animator: {fileID: 4249704325948612792}
   AsyncLoad: {fileID: 8593526761048431692}
   SceneIndex: 2
@@ -1554,6 +1557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4162d4d787e00c24992e76ee60d83dcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AudioPlayer: {fileID: 8593526762938112881}
   DzinId: FinalDzin
 --- !u!82 &5217421429740218153
 AudioSource:
@@ -1693,23 +1697,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 8593526762938112880}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5574488fa0be0aa40a25d0a6ca09db70, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e211b262617ed5498671b34e04f5993, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   audioList:
+  - id: OpenDoor
+    audio: {fileID: 8300000, guid: acb82e09a61be534cbb48d3b8890550a, type: 3}
   - id: LiftAmbient
     audio: {fileID: 8300000, guid: 8e8d6a9aaf82b10478706f097a58b34d, type: 3}
   - id: FinalDzin
     audio: {fileID: 8300000, guid: f2f82115396360740aef3bcf46618b4c, type: 3}
-  - id: OpenDoor
-    audio: {fileID: 8300000, guid: acb82e09a61be534cbb48d3b8890550a, type: 3}
-  backgroundMusics: []
-  audioSourcePrefab: {fileID: 0}
-  playBackgroundMusicOnStart: 0
-  background: {fileID: 0}
-  fadeOutTime: 0
-  fadeInTime: 0
-  musicChangeInterval: 0
+  audioSourcePrefab: {fileID: 3652064081764677137, guid: 529e1439aa7f42e4b9a4b4a6b8d2c941,
+    type: 3}
 --- !u!82 &8593526762938112883
 AudioSource:
   m_ObjectHideFlags: 0

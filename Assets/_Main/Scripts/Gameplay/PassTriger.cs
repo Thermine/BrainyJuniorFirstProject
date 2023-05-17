@@ -9,7 +9,7 @@ public class PassTriger : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            AudioManager.Instance.PlayAudioById("123");
+            BackgroundMusicManager.Instance.PlayAudioById("123");
         }
     }
 }

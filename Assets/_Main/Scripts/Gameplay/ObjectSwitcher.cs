@@ -53,7 +53,7 @@ public class ObjectSwitcher : MonoBehaviour
                 yield return new WaitForSeconds(timeBetweenImages);
                 imageDisplay.enabled = false;
                 PlayerCombPanel.SetActive(true);
-                AudioManager.Instance.PlayAudioById("117");
+                BackgroundMusicManager.Instance.PlayAudioById("117");
                 break;
             }
             // увеличиваем индекс текущей картинки

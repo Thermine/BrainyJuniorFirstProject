@@ -4,12 +4,14 @@ using System.Collections.Generic;
 using BrainyJunior.MyGame.Scripts.Managers;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using BrainyJunior.MyGame.Scripts.Audio;
 
 public class AsyncLoad: MonoBehaviour
 {
-
+    [SerializeField] private AudioPlayer AudioPlayer;
     AsyncOperation AsyncOperation;
     public string DzinId;
+    
 
     public void AsyncLoading(int SceneIndex)
     {
@@ -26,7 +28,7 @@ public class AsyncLoad: MonoBehaviour
         {
             continue;
         }
-        BackgroundMusicManager.Instance.PlayAudioById(DzinId);
+        AudioPlayer.PlayAudioById(DzinId);
         yield return new WaitForSeconds(2);
         AsyncOperation.allowSceneActivation = true;
     }
