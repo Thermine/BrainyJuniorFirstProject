@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2f6a487f8e679a438e441e30c010b1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  action:
+  interactAction:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 3061474773890639745}
@@ -170,6 +170,15 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  endInteractAction:
+    m_PersistentCalls:
+      m_Calls: []
+  hoverAction:
+    m_PersistentCalls:
+      m_Calls: []
+  endHoverAction:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &5387127840535563412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -196,6 +205,8 @@ GameObject:
   - component: {fileID: 315851596794196638}
   - component: {fileID: 66291126823114359}
   - component: {fileID: 5049830819286787624}
+  - component: {fileID: 680891541492214360}
+  - component: {fileID: 974619114}
   m_Layer: 0
   m_Name: FakeSphere
   m_TagString: Untagged
@@ -255,6 +266,7 @@ MonoBehaviour:
   - {fileID: 3061474775396444431}
   target: {fileID: 5478634382291938266}
   stopwatchComponent: {fileID: 0}
+  audioPlayer: {fileID: 0}
 --- !u!114 &315851596794196638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -298,6 +310,69 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &680891541492214360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3061474773890639871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e211b262617ed5498671b34e04f5993, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioList:
+  - id: 304
+    audio: {fileID: 8300000, guid: d6ff5e7e1f939444383092781fb2a9c1, type: 3}
+  - id: 111
+    audio: {fileID: 8300000, guid: bea0cd287ead16640aada6e282cb170f, type: 3}
+  - id: 112
+    audio: {fileID: 8300000, guid: fb8a6799c3a097a43b746c471352d53e, type: 3}
+  - id: 113
+    audio: {fileID: 8300000, guid: 5b5e2830d5a0e284aaf8577301574917, type: 3}
+  - id: 114
+    audio: {fileID: 8300000, guid: cd5234aa4abaa7c4e88f7882ae283c96, type: 3}
+  - id: 115
+    audio: {fileID: 8300000, guid: c03171ea24fe29f4b984a238894f763b, type: 3}
+  audioSourcePrefab: {fileID: 598438314883506775, guid: eac8a9503cb8b364193c7f1191a36177,
+    type: 3}
+--- !u!114 &974619114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3061474773890639871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2f6a487f8e679a438e441e30c010b1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactAction:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3061474773890639745}
+        m_TargetAssemblyTypeName: djastas.FakeSphere, Assembly-CSharp
+        m_MethodName: Explosion
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  endInteractAction:
+    m_PersistentCalls:
+      m_Calls: []
+  hoverAction:
+    m_PersistentCalls:
+      m_Calls: []
+  endHoverAction:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &3061474775314469534
 GameObject:
   m_ObjectHideFlags: 0
@@ -441,7 +516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2f6a487f8e679a438e441e30c010b1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  action:
+  interactAction:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 3061474773890639745}
@@ -468,6 +543,15 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  endInteractAction:
+    m_PersistentCalls:
+      m_Calls: []
+  hoverAction:
+    m_PersistentCalls:
+      m_Calls: []
+  endHoverAction:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &4896681019399557369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -624,7 +708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2f6a487f8e679a438e441e30c010b1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  action:
+  interactAction:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 3061474773890639745}
@@ -651,6 +735,15 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  endInteractAction:
+    m_PersistentCalls:
+      m_Calls: []
+  hoverAction:
+    m_PersistentCalls:
+      m_Calls: []
+  endHoverAction:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &7612679016117308526
 MonoBehaviour:
   m_ObjectHideFlags: 0

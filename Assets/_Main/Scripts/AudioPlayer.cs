@@ -26,6 +26,11 @@ namespace BrainyJunior.MyGame.Scripts.Audio
             Debug.LogWarning("name of the audio track incorrect");
             return 0;
         }
+
+        public void PlayAudioByIdToUnityEvent(string id) // method use unity events to call PlayAudioById 
+        {
+           PlayAudioById(id);
+        }
         public int PlayAudioObject(BackgroundMusicManager.AudioObject audioObject, bool loop = false)
         {
             var audioSource = Instantiate(audioSourcePrefab,gameObject.transform);
