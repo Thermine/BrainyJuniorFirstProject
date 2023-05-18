@@ -774,198 +774,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 336460753}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &336460755 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3061474775396444431, guid: bcdf1d3e9cf5f904481f05586a387c91,
-    type: 3}
-  m_PrefabInstance: {fileID: 336460753}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &336460756 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3061474773636536079, guid: bcdf1d3e9cf5f904481f05586a387c91,
-    type: 3}
-  m_PrefabInstance: {fileID: 336460753}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &336460757 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3061474775314469534, guid: bcdf1d3e9cf5f904481f05586a387c91,
-    type: 3}
-  m_PrefabInstance: {fileID: 336460753}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &336460758 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3061474773890639871, guid: bcdf1d3e9cf5f904481f05586a387c91,
-    type: 3}
-  m_PrefabInstance: {fileID: 336460753}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &336460759 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3061474773890639745, guid: bcdf1d3e9cf5f904481f05586a387c91,
     type: 3}
   m_PrefabInstance: {fileID: 336460753}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 336460758}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8840a0dc2af5d9345804743e9b74ad67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &336460760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 336460755}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2f6a487f8e679a438e441e30c010b1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1944883874}
-        m_TargetAssemblyTypeName: djastas.AudioManager, Assembly-CSharp
-        m_MethodName: PlayAudioById
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: praise2
-          m_BoolArgument: 0
-        m_CallState: 2
-  endInteractAction:
-    m_PersistentCalls:
-      m_Calls: []
-  hoverAction:
-    m_PersistentCalls:
-      m_Calls: []
-  endHoverAction:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &336460761
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 336460756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2f6a487f8e679a438e441e30c010b1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1944883874}
-        m_TargetAssemblyTypeName: djastas.AudioManager, Assembly-CSharp
-        m_MethodName: PlayAudioById
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: praise1
-          m_BoolArgument: 0
-        m_CallState: 2
-  endInteractAction:
-    m_PersistentCalls:
-      m_Calls: []
-  hoverAction:
-    m_PersistentCalls:
-      m_Calls: []
-  endHoverAction:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &336460762
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 336460757}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2f6a487f8e679a438e441e30c010b1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1944883874}
-        m_TargetAssemblyTypeName: djastas.AudioManager, Assembly-CSharp
-        m_MethodName: PlayAudioById
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: praise0
-          m_BoolArgument: 0
-        m_CallState: 2
-  endInteractAction:
-    m_PersistentCalls:
-      m_Calls: []
-  hoverAction:
-    m_PersistentCalls:
-      m_Calls: []
-  endHoverAction:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &336460763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 336460758}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2f6a487f8e679a438e441e30c010b1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1944883874}
-        m_TargetAssemblyTypeName: djastas.AudioManager, Assembly-CSharp
-        m_MethodName: PlayAudioById
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Fire
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 336460759}
-        m_TargetAssemblyTypeName: djastas.FakeSphere, Assembly-CSharp
-        m_MethodName: Explosion
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  endInteractAction:
-    m_PersistentCalls:
-      m_Calls: []
-  hoverAction:
-    m_PersistentCalls:
-      m_Calls: []
-  endHoverAction:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1001 &341160304
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1811,198 +1631,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 824798676}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &824798678 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3061474775396444431, guid: bcdf1d3e9cf5f904481f05586a387c91,
-    type: 3}
-  m_PrefabInstance: {fileID: 824798676}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &824798679 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3061474773636536079, guid: bcdf1d3e9cf5f904481f05586a387c91,
-    type: 3}
-  m_PrefabInstance: {fileID: 824798676}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &824798680 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3061474775314469534, guid: bcdf1d3e9cf5f904481f05586a387c91,
-    type: 3}
-  m_PrefabInstance: {fileID: 824798676}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &824798681 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3061474773890639871, guid: bcdf1d3e9cf5f904481f05586a387c91,
-    type: 3}
-  m_PrefabInstance: {fileID: 824798676}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &824798682 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3061474773890639745, guid: bcdf1d3e9cf5f904481f05586a387c91,
     type: 3}
   m_PrefabInstance: {fileID: 824798676}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824798681}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8840a0dc2af5d9345804743e9b74ad67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &824798683
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824798678}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2f6a487f8e679a438e441e30c010b1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1944883874}
-        m_TargetAssemblyTypeName: djastas.AudioManager, Assembly-CSharp
-        m_MethodName: PlayAudioById
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: praise2
-          m_BoolArgument: 0
-        m_CallState: 2
-  endInteractAction:
-    m_PersistentCalls:
-      m_Calls: []
-  hoverAction:
-    m_PersistentCalls:
-      m_Calls: []
-  endHoverAction:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &824798684
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824798679}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2f6a487f8e679a438e441e30c010b1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1944883874}
-        m_TargetAssemblyTypeName: djastas.AudioManager, Assembly-CSharp
-        m_MethodName: PlayAudioById
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: praise1
-          m_BoolArgument: 0
-        m_CallState: 2
-  endInteractAction:
-    m_PersistentCalls:
-      m_Calls: []
-  hoverAction:
-    m_PersistentCalls:
-      m_Calls: []
-  endHoverAction:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &824798685
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824798680}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2f6a487f8e679a438e441e30c010b1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1944883874}
-        m_TargetAssemblyTypeName: djastas.AudioManager, Assembly-CSharp
-        m_MethodName: PlayAudioById
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: praise0
-          m_BoolArgument: 0
-        m_CallState: 2
-  endInteractAction:
-    m_PersistentCalls:
-      m_Calls: []
-  hoverAction:
-    m_PersistentCalls:
-      m_Calls: []
-  endHoverAction:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &824798686
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824798681}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2f6a487f8e679a438e441e30c010b1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1944883874}
-        m_TargetAssemblyTypeName: djastas.AudioManager, Assembly-CSharp
-        m_MethodName: PlayAudioById
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Fire
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 824798682}
-        m_TargetAssemblyTypeName: djastas.FakeSphere, Assembly-CSharp
-        m_MethodName: Explosion
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  endInteractAction:
-    m_PersistentCalls:
-      m_Calls: []
-  hoverAction:
-    m_PersistentCalls:
-      m_Calls: []
-  endHoverAction:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &916266524
 GameObject:
   m_ObjectHideFlags: 0
@@ -2110,36 +1750,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FakeSphere (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5049830819286787624, guid: bcdf1d3e9cf5f904481f05586a387c91, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcdf1d3e9cf5f904481f05586a387c91, type: 3}
 --- !u!4 &938709696 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3061474773890639744, guid: bcdf1d3e9cf5f904481f05586a387c91,
-    type: 3}
-  m_PrefabInstance: {fileID: 938709695}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &938709697 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3061474775396444431, guid: bcdf1d3e9cf5f904481f05586a387c91,
-    type: 3}
-  m_PrefabInstance: {fileID: 938709695}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &938709698 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3061474773636536079, guid: bcdf1d3e9cf5f904481f05586a387c91,
-    type: 3}
-  m_PrefabInstance: {fileID: 938709695}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &938709699 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3061474775314469534, guid: bcdf1d3e9cf5f904481f05586a387c91,
-    type: 3}
-  m_PrefabInstance: {fileID: 938709695}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &938709700 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3061474773890639871, guid: bcdf1d3e9cf5f904481f05586a387c91,
     type: 3}
   m_PrefabInstance: {fileID: 938709695}
   m_PrefabAsset: {fileID: 0}
@@ -2149,168 +1764,12 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 938709695}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 938709700}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8840a0dc2af5d9345804743e9b74ad67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &938709702
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 938709697}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2f6a487f8e679a438e441e30c010b1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1944883874}
-        m_TargetAssemblyTypeName: djastas.AudioManager, Assembly-CSharp
-        m_MethodName: PlayAudioById
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: praise2
-          m_BoolArgument: 0
-        m_CallState: 2
-  endInteractAction:
-    m_PersistentCalls:
-      m_Calls: []
-  hoverAction:
-    m_PersistentCalls:
-      m_Calls: []
-  endHoverAction:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &938709703
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 938709698}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2f6a487f8e679a438e441e30c010b1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1944883874}
-        m_TargetAssemblyTypeName: djastas.AudioManager, Assembly-CSharp
-        m_MethodName: PlayAudioById
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: praise1
-          m_BoolArgument: 0
-        m_CallState: 2
-  endInteractAction:
-    m_PersistentCalls:
-      m_Calls: []
-  hoverAction:
-    m_PersistentCalls:
-      m_Calls: []
-  endHoverAction:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &938709704
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 938709699}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2f6a487f8e679a438e441e30c010b1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1944883874}
-        m_TargetAssemblyTypeName: djastas.AudioManager, Assembly-CSharp
-        m_MethodName: PlayAudioById
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: praise0
-          m_BoolArgument: 0
-        m_CallState: 2
-  endInteractAction:
-    m_PersistentCalls:
-      m_Calls: []
-  hoverAction:
-    m_PersistentCalls:
-      m_Calls: []
-  endHoverAction:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &938709705
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 938709700}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2f6a487f8e679a438e441e30c010b1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1944883874}
-        m_TargetAssemblyTypeName: djastas.AudioManager, Assembly-CSharp
-        m_MethodName: PlayAudioById
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Fire
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 938709701}
-        m_TargetAssemblyTypeName: djastas.FakeSphere, Assembly-CSharp
-        m_MethodName: Explosion
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  endInteractAction:
-    m_PersistentCalls:
-      m_Calls: []
-  hoverAction:
-    m_PersistentCalls:
-      m_Calls: []
-  endHoverAction:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1001 &974619104
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2386,198 +1845,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 974619104}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &974619106 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3061474775396444431, guid: bcdf1d3e9cf5f904481f05586a387c91,
-    type: 3}
-  m_PrefabInstance: {fileID: 974619104}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &974619107 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3061474773636536079, guid: bcdf1d3e9cf5f904481f05586a387c91,
-    type: 3}
-  m_PrefabInstance: {fileID: 974619104}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &974619108 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3061474775314469534, guid: bcdf1d3e9cf5f904481f05586a387c91,
-    type: 3}
-  m_PrefabInstance: {fileID: 974619104}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &974619109 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3061474773890639871, guid: bcdf1d3e9cf5f904481f05586a387c91,
-    type: 3}
-  m_PrefabInstance: {fileID: 974619104}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &974619110 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3061474773890639745, guid: bcdf1d3e9cf5f904481f05586a387c91,
     type: 3}
   m_PrefabInstance: {fileID: 974619104}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 974619109}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8840a0dc2af5d9345804743e9b74ad67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &974619111
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 974619106}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2f6a487f8e679a438e441e30c010b1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1944883874}
-        m_TargetAssemblyTypeName: djastas.AudioManager, Assembly-CSharp
-        m_MethodName: PlayAudioById
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: praise2
-          m_BoolArgument: 0
-        m_CallState: 2
-  endInteractAction:
-    m_PersistentCalls:
-      m_Calls: []
-  hoverAction:
-    m_PersistentCalls:
-      m_Calls: []
-  endHoverAction:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &974619112
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 974619107}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2f6a487f8e679a438e441e30c010b1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1944883874}
-        m_TargetAssemblyTypeName: djastas.AudioManager, Assembly-CSharp
-        m_MethodName: PlayAudioById
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: praise1
-          m_BoolArgument: 0
-        m_CallState: 2
-  endInteractAction:
-    m_PersistentCalls:
-      m_Calls: []
-  hoverAction:
-    m_PersistentCalls:
-      m_Calls: []
-  endHoverAction:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &974619113
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 974619108}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2f6a487f8e679a438e441e30c010b1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1944883874}
-        m_TargetAssemblyTypeName: djastas.AudioManager, Assembly-CSharp
-        m_MethodName: PlayAudioById
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: praise0
-          m_BoolArgument: 0
-        m_CallState: 2
-  endInteractAction:
-    m_PersistentCalls:
-      m_Calls: []
-  hoverAction:
-    m_PersistentCalls:
-      m_Calls: []
-  endHoverAction:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &974619114
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 974619109}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2f6a487f8e679a438e441e30c010b1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1944883874}
-        m_TargetAssemblyTypeName: djastas.AudioManager, Assembly-CSharp
-        m_MethodName: PlayAudioById
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Fire
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 974619110}
-        m_TargetAssemblyTypeName: djastas.FakeSphere, Assembly-CSharp
-        m_MethodName: Explosion
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  endInteractAction:
-    m_PersistentCalls:
-      m_Calls: []
-  hoverAction:
-    m_PersistentCalls:
-      m_Calls: []
-  endHoverAction:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &1078938276
 GameObject:
   m_ObjectHideFlags: 0
@@ -4083,6 +3362,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1911550902}
   - component: {fileID: 1911550903}
+  - component: {fileID: 1911550904}
   m_Layer: 0
   m_Name: Laser
   m_TagString: Untagged
@@ -4118,23 +3398,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: deb384906fdcbba4ca2877b2f14f1ea6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lengthGizmo: 87.91
+  playerController: {fileID: 1015593788509495170}
   particle: {fileID: 8234019828059883599, guid: dfd5de89f8273ec44a30316f62bcddbd,
     type: 3}
-  pc: {fileID: 1015593788509495170}
+  lengthGizmo: 87.91
   reloadTime: 0.2
---- !u!114 &1944883874 stripped
+--- !u!114 &1911550904
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7060756800846518628, guid: 1c81cba8d138e034a835a9cf5de520bf,
-    type: 3}
-  m_PrefabInstance: {fileID: 7060756802124499910}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1911550901}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5574488fa0be0aa40a25d0a6ca09db70, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e211b262617ed5498671b34e04f5993, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioList:
+  - id: shoot
+    audio: {fileID: 8300000, guid: 0b092d7e530357c4d80ee71fc459925f, type: 3}
+  audioSourcePrefab: {fileID: 598438314883506775, guid: eac8a9503cb8b364193c7f1191a36177,
+    type: 3}
 --- !u!4 &1944883875 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7060756800846518629, guid: 1c81cba8d138e034a835a9cf5de520bf,
@@ -14698,198 +13983,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcdf1d3e9cf5f904481f05586a387c91, type: 3}
---- !u!1 &3061474774119417921 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3061474773890639871, guid: bcdf1d3e9cf5f904481f05586a387c91,
-    type: 3}
-  m_PrefabInstance: {fileID: 3061474774119417920}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &3061474774119417922 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3061474773890639745, guid: bcdf1d3e9cf5f904481f05586a387c91,
     type: 3}
   m_PrefabInstance: {fileID: 3061474774119417920}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3061474774119417921}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8840a0dc2af5d9345804743e9b74ad67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3061474774119417923
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3061474774119417921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2f6a487f8e679a438e441e30c010b1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1944883874}
-        m_TargetAssemblyTypeName: djastas.AudioManager, Assembly-CSharp
-        m_MethodName: PlayAudioById
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Fire
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 3061474774119417922}
-        m_TargetAssemblyTypeName: djastas.FakeSphere, Assembly-CSharp
-        m_MethodName: Explosion
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  endInteractAction:
-    m_PersistentCalls:
-      m_Calls: []
-  hoverAction:
-    m_PersistentCalls:
-      m_Calls: []
-  endHoverAction:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!1 &3061474774119417924 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3061474775396444431, guid: bcdf1d3e9cf5f904481f05586a387c91,
-    type: 3}
-  m_PrefabInstance: {fileID: 3061474774119417920}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &3061474774119417925 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3061474773636536079, guid: bcdf1d3e9cf5f904481f05586a387c91,
-    type: 3}
-  m_PrefabInstance: {fileID: 3061474774119417920}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &3061474774119417926 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3061474775314469534, guid: bcdf1d3e9cf5f904481f05586a387c91,
-    type: 3}
-  m_PrefabInstance: {fileID: 3061474774119417920}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &3061474774119417927
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3061474774119417924}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2f6a487f8e679a438e441e30c010b1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1944883874}
-        m_TargetAssemblyTypeName: djastas.AudioManager, Assembly-CSharp
-        m_MethodName: PlayAudioById
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: praise2
-          m_BoolArgument: 0
-        m_CallState: 2
-  endInteractAction:
-    m_PersistentCalls:
-      m_Calls: []
-  hoverAction:
-    m_PersistentCalls:
-      m_Calls: []
-  endHoverAction:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &3061474774119417928
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3061474774119417925}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2f6a487f8e679a438e441e30c010b1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1944883874}
-        m_TargetAssemblyTypeName: djastas.AudioManager, Assembly-CSharp
-        m_MethodName: PlayAudioById
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: praise1
-          m_BoolArgument: 0
-        m_CallState: 2
-  endInteractAction:
-    m_PersistentCalls:
-      m_Calls: []
-  hoverAction:
-    m_PersistentCalls:
-      m_Calls: []
-  endHoverAction:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &3061474774119417929
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3061474774119417926}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2f6a487f8e679a438e441e30c010b1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1944883874}
-        m_TargetAssemblyTypeName: djastas.AudioManager, Assembly-CSharp
-        m_MethodName: PlayAudioById
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: praise0
-          m_BoolArgument: 0
-        m_CallState: 2
-  endInteractAction:
-    m_PersistentCalls:
-      m_Calls: []
-  hoverAction:
-    m_PersistentCalls:
-      m_Calls: []
-  endHoverAction:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &3065659504476093450
 GameObject:
   m_ObjectHideFlags: 0
@@ -23393,6 +22498,366 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 685442161}
     m_Modifications:
+    - target: {fileID: 5801131864898477297, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131864898477297, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131864898477297, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 8252401975847057516}
+    - target: {fileID: 5801131864898477297, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131864898477297, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlayAudioByIdToUnityEvent
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131864898477297, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: BrainyJunior.MyGame.Scripts.Audio.AudioPlayer, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131864898477297, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131864898477297, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865004565423, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865004565423, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865004565423, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 8252401975847057516}
+    - target: {fileID: 5801131865004565423, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865004565423, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlayAudioByIdToUnityEvent
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865004565423, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: BrainyJunior.MyGame.Scripts.Audio.AudioPlayer, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865004565423, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865004565423, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865018191088, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865018191088, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865018191088, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 8252401975847057516}
+    - target: {fileID: 5801131865018191088, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865018191088, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlayAudioByIdToUnityEvent
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865018191088, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: BrainyJunior.MyGame.Scripts.Audio.AudioPlayer, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865018191088, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865018191088, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865021712509, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865021712509, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865021712509, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 8252401975847057516}
+    - target: {fileID: 5801131865021712509, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865021712509, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlayAudioByIdToUnityEvent
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865021712509, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: BrainyJunior.MyGame.Scripts.Audio.AudioPlayer, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865021712509, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865021712509, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865168970852, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865168970852, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865168970852, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 8252401975847057516}
+    - target: {fileID: 5801131865168970852, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865168970852, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlayAudioByIdToUnityEvent
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865168970852, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: BrainyJunior.MyGame.Scripts.Audio.AudioPlayer, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865168970852, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865168970852, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865277279987, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865277279987, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865277279987, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 8252401975847057516}
+    - target: {fileID: 5801131865277279987, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865277279987, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlayAudioByIdToUnityEvent
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865277279987, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: BrainyJunior.MyGame.Scripts.Audio.AudioPlayer, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865277279987, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865277279987, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865494288700, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865494288700, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865494288700, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 8252401975847057516}
+    - target: {fileID: 5801131865494288700, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865494288700, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlayAudioByIdToUnityEvent
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865494288700, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: BrainyJunior.MyGame.Scripts.Audio.AudioPlayer, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865494288700, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865494288700, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865687548696, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865687548696, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865687548696, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 8252401975847057516}
+    - target: {fileID: 5801131865687548696, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865687548696, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlayAudioByIdToUnityEvent
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865687548696, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: BrainyJunior.MyGame.Scripts.Audio.AudioPlayer, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865687548696, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865687548696, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865859210245, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865859210245, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865859210245, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 8252401975847057516}
+    - target: {fileID: 5801131865859210245, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865859210245, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlayAudioByIdToUnityEvent
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865859210245, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: BrainyJunior.MyGame.Scripts.Audio.AudioPlayer, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865859210245, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131865859210245, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5801131866112271016, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
         type: 3}
       propertyPath: m_Type
@@ -23402,7 +22867,93 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -1791986713, guid: 5242de5ce1b013246b4cf4a8c619eca9,
+      objectReference: {fileID: -1964905226, guid: 5242de5ce1b013246b4cf4a8c619eca9,
+        type: 3}
+    - target: {fileID: 5801131866262263791, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131866262263791, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131866262263791, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 8252401975847057516}
+    - target: {fileID: 5801131866262263791, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131866262263791, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlayAudioByIdToUnityEvent
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131866262263791, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: BrainyJunior.MyGame.Scripts.Audio.AudioPlayer, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131866262263791, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131866262263791, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131866861596351, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131866861596351, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131866861596351, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 8252401975847057516}
+    - target: {fileID: 5801131866861596351, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131866861596351, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlayAudioByIdToUnityEvent
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131866861596351, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: BrainyJunior.MyGame.Scripts.Audio.AudioPlayer, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131866861596351, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801131866861596351, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8252401975654242852, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 383836668, guid: 5242de5ce1b013246b4cf4a8c619eca9,
         type: 3}
     - target: {fileID: 8252401975654242855, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
         type: 3}
@@ -23536,6 +23087,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e0ac6d950f83cd4e90b6894aea6ac00, type: 3}
+--- !u!1 &8252401975847057515 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5801131865263953825, guid: 8e0ac6d950f83cd4e90b6894aea6ac00,
+    type: 3}
+  m_PrefabInstance: {fileID: 8252401975847057514}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8252401975847057516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8252401975847057515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e211b262617ed5498671b34e04f5993, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioList:
+  - id: button
+    audio: {fileID: 8300000, guid: e4eabc45b74f3964b970432c9aa3f3b3, type: 3}
+  audioSourcePrefab: {fileID: 598438314883506775, guid: eac8a9503cb8b364193c7f1191a36177,
+    type: 3}
 --- !u!114 &8292445108694917062
 MonoBehaviour:
   m_ObjectHideFlags: 0
