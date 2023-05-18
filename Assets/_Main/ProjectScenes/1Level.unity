@@ -1494,7 +1494,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 685442160}
   m_LocalRotation: {x: 8e-45, y: 0.9914448, z: 1e-45, w: 0.1305266}
-  m_LocalPosition: {x: -2.0269344, y: 0.15235758, z: 2.0160987}
+  m_LocalPosition: {x: -2.0269344, y: 0.5933571, z: 2.0160987}
   m_LocalScale: {x: 0.009999997, y: 0.009999999, z: 0.0100000035}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3713,20 +3713,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 916266525}
     m_Modifications:
-    - target: {fileID: 3922033727118239866, guid: a03ed519be01d1440a8ec63d2ac101f7,
-        type: 3}
-      propertyPath: Debug
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4013254746517429689, guid: a03ed519be01d1440a8ec63d2ac101f7,
         type: 3}
       propertyPath: m_Name
       value: HVRGlobal
-      objectReference: {fileID: 0}
-    - target: {fileID: 4013254746517429689, guid: a03ed519be01d1440a8ec63d2ac101f7,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4013254746517429691, guid: a03ed519be01d1440a8ec63d2ac101f7,
         type: 3}
@@ -3781,51 +3771,6 @@ PrefabInstance:
     - target: {fileID: 4013254746517429691, guid: a03ed519be01d1440a8ec63d2ac101f7,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6653875500687940427, guid: a03ed519be01d1440a8ec63d2ac101f7,
-        type: 3}
-      propertyPath: console
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6653875500687940427, guid: a03ed519be01d1440a8ec63d2ac101f7,
-        type: 3}
-      propertyPath: RightTriggerActivated.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6653875500687940427, guid: a03ed519be01d1440a8ec63d2ac101f7,
-        type: 3}
-      propertyPath: RightTriggerActivated.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6653875500687940427, guid: a03ed519be01d1440a8ec63d2ac101f7,
-        type: 3}
-      propertyPath: RightTriggerActivated.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1911550903}
-    - target: {fileID: 6653875500687940427, guid: a03ed519be01d1440a8ec63d2ac101f7,
-        type: 3}
-      propertyPath: RightTriggerActivated.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6653875500687940427, guid: a03ed519be01d1440a8ec63d2ac101f7,
-        type: 3}
-      propertyPath: RightTriggerActivated.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Shoot
-      objectReference: {fileID: 0}
-    - target: {fileID: 6653875500687940427, guid: a03ed519be01d1440a8ec63d2ac101f7,
-        type: 3}
-      propertyPath: RightTriggerActivated.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: djastas.Laser, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6653875500687940427, guid: a03ed519be01d1440a8ec63d2ac101f7,
-        type: 3}
-      propertyPath: RightTriggerActivated.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 8289038245742653683, guid: a03ed519be01d1440a8ec63d2ac101f7,
-        type: 3}
-      propertyPath: LeftFeatures.Array.size
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4174,7 +4119,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lengthGizmo: 87.91
-  particle: {fileID: 385432543572975757, guid: ed184c2a6edccf34db2b3cde3a3fb0c7, type: 3}
+  particle: {fileID: 8234019828059883599, guid: dfd5de89f8273ec44a30316f62bcddbd,
+    type: 3}
   pc: {fileID: 1015593788509495170}
   reloadTime: 0.2
 --- !u!114 &1944883874 stripped
@@ -6092,7 +6038,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1015593786877578551}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -2.566, y: -1.674, z: 2.814}
+  m_LocalPosition: {x: -2.566, y: -1.233, z: 2.814}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6419,7 +6365,7 @@ MonoBehaviour:
   LimitHeadDistance: 1
   MaxLean: 0.4
   FadeFromLean: 1
-  MouseTurning: 1
+  MouseTurning: 0
   MouseSensitivityX: 1
   IsGrounded: 0
   _actualVelocity: 0
@@ -25150,7 +25096,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &8913311080235154105
 MonoBehaviour:
   m_ObjectHideFlags: 0

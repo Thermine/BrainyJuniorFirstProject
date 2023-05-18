@@ -9,7 +9,7 @@ public class EnterPassword : MonoBehaviour
     [SerializeField] private string RightCombination;
     [SerializeField] private string PlayerCombination;
     [SerializeField] private TMP_InputField InputField;
-    [SerializeField] private Animator LiftAnimator;
+    [SerializeField] private LiftScript LiftAnimator;
     [SerializeField] private string AudioID;
     
 
@@ -63,8 +63,7 @@ public class EnterPassword : MonoBehaviour
     }
     void RightCombintation()
     {
-        StopCoroutine(FalseCombintarion());
-        LiftAnimator.SetTrigger("Open");
+        LiftAnimator.OpenLift();
         BackgroundMusicManager.Instance.PlayAudioById("OpenDoor");
         gameObject.SetActive(false);
         transform.parent.GetComponent<BoxCollider>().enabled = true;

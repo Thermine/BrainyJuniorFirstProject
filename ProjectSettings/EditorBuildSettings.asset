@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/HurricaneVR/Framework/Integrations/FinalIK/FinalIk_Scene.unity
     guid: 9ad3572b1228a664486d421765503258
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Main/ProjectScenes/0Level.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Main/ProjectScenes/1Level.unity
     guid: 147e6e66e493eb6408e590408e29737a
   - enabled: 1

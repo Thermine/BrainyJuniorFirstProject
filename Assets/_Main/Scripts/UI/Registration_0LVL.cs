@@ -14,7 +14,7 @@ public class Registration_0LVL : MonoBehaviour
     private InputField currentField;
     [SerializeField] private KeyboardScript Keyboard;     
     [SerializeField] Button TurnOffButton;
-
+    [SerializeField] GameObject togle;
     private void Start()
     {
         currentField = Fields[0];
@@ -22,23 +22,23 @@ public class Registration_0LVL : MonoBehaviour
     }
     public void SwitchField()
     {
-        if(currentField.text != "")
+        if (currentField.text != "")
         {
             if (FieldIndex < Fields.Count)
-            { 
+            {
                 FieldIndex++;
                 currentField = Fields[FieldIndex];
                 Keyboard.TextField = currentField;
                 SumbitInfo(Fields[FieldIndex - 1]);
+
             }
-            else
+            if (FieldIndex == Fields.Count)
             {
+                togle.SetActive(true);
                 TurnOffButton.interactable = true;
             }
         }
-
     }
-
     public void SumbitInfo(InputField inputField)
     {
         if(Info != inputField.text)
