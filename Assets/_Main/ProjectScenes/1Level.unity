@@ -2888,7 +2888,7 @@ PrefabInstance:
         type: 3}
       propertyPath: exitLevelAction.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1944883874}
+      objectReference: {fileID: 0}
     - target: {fileID: 8593526761048431693, guid: b9c06a51b52c9984f92818ba0ab40790,
         type: 3}
       propertyPath: exitLevelAction.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -24670,7 +24670,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &8913311080235154105
 MonoBehaviour:
   m_ObjectHideFlags: 0
